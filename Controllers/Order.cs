@@ -1,5 +1,6 @@
 ﻿using FPTBook_v3.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace FPTBook_v3.Controllers
 {
@@ -18,17 +19,17 @@ namespace FPTBook_v3.Controllers
             _httpContextAccessor = httpContextAccessor;
             _userManager = userManager;
         }
-
-        public string UserId { get; internal set; }
-        public DateTime CreateDate { get; internal set; }
-        public int Id { get; internal set; }
-
         public async Task<IEnumerable<Order>> UserOrders()
         {
             var userId = GetUserId();
             if (string.IsNullOrEmpty(userId))
                 throw new Exception("User is not logged-in");
-            var orders =  _db.Orders.Where(a => a.UserId == userId).ToList();
+            var orders = await _db.Orders
+                            .Include(x => x.OrderDetail)
+                            .ThenInclude(x => x.Book)
+                            .ThenInclude(x => x.category)
+                            .Where(a => a.UserId == userId)
+                            .ToListAsync();
             return (IEnumerable<Order>)orders;
         }
 

@@ -10,7 +10,6 @@ namespace FPTBook_v3.Controllers
     {
         private readonly ApplicationDbContext _db;
         private readonly ILogger<BookController> _logger;
-        public const string CARTKEY = "cart";
 
         public BookController(ILogger<BookController> logger, ApplicationDbContext db)
         {

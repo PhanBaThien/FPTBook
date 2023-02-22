@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6VTfzSr3Blm4cdvJyWWZc1lpqV5Nv7T4PeAaHB/KP/A=",
+  "Hash": "kIBVgDJsFIforYPsWrZPo8/lbcSeGatbajwPJwahV/I=",
   "Source": "FPTBook_v3",
   "BasePath": "_content/FPTBook_v3",
   "Mode": "Default",
@@ -1071,6 +1071,23 @@
       "OriginalItemSpec": "D:\\FPTBook_v3\\FPTBook_v3\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FPTBook_v3.bundle.scp.css"
     },
     {
+      "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "FPTBook_v3",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\",
+      "BasePath": "_content/FPTBook_v3",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
       "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\css\\site.css",
       "SourceId": "FPTBook_v3",
       "SourceType": "Discovered",
@@ -1103,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\images\\NoImage.png",
+      "SourceId": "FPTBook_v3",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\",
+      "BasePath": "_content/FPTBook_v3",
+      "RelativePath": "images/NoImage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\NoImage.png"
     },
     {
       "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\js\\site.js",
