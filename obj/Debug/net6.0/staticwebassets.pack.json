@@ -1,0 +1,1377 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FPTBook_v3.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FPTBook_v3.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\26cf62c3-4604-4704-855e-aaeb20ed6800.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\26cf62c3-4604-4704-855e-aaeb20ed6800.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\9fe3fcbf-c154-403e-bb06-5e2352458a0f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\9fe3fcbf-c154-403e-bb06-5e2352458a0f.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\css\\main.css",
+      "PackagePath": "staticwebassets\\login\\css\\main.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\css\\util.css",
+      "PackagePath": "staticwebassets\\login\\css\\util.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\login\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\iconic\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\login\\fonts\\iconic\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\iconic\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\login\\fonts\\iconic\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\login\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\login\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\login\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\login\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\login\\fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\login\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\js\\main.js",
+      "PackagePath": "staticwebassets\\login\\js\\main.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\animsition\\css\\animsition.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\animsition\\css\\animsition.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\animsition\\css\\animsition.min.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\animsition\\css\\animsition.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\animsition\\js\\animsition.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\animsition\\js\\animsition.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\animsition\\js\\animsition.min.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\animsition\\js\\animsition.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\countdowntime\\countdowntime.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\countdowntime\\countdowntime.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\daterangepicker\\moment.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\daterangepicker\\moment.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\login\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\css\\style.css",
+      "PackagePath": "staticwebassets\\owner\\css\\style.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\owner\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Bold.eot",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Bold.eot"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Bold.ttf",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Bold.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Bold.woff",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Bold.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Bold.woff2",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Bold.woff2"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Light.eot",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Light.eot"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Light.ttf",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Light.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Light.woff",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Light.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Light.woff2",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Light.woff2"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Medium.eot",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Medium.eot"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Medium.ttf",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Medium.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Medium.woff",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Medium.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Medium.woff2",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Medium.woff2"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Regular.eot",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Regular.eot"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Regular.ttf",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Regular.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Regular.woff",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Regular.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
+      "PackagePath": "staticwebassets\\owner\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\dashboard\\circle.png",
+      "PackagePath": "staticwebassets\\owner\\images\\dashboard\\circle.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\dashboard\\circle.svg",
+      "PackagePath": "staticwebassets\\owner\\images\\dashboard\\circle.svg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\dashboard\\img_1.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\dashboard\\img_1.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\dashboard\\img_2.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\dashboard\\img_2.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\dashboard\\img_3.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\dashboard\\img_3.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\dashboard\\img_4.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\dashboard\\img_4.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces-clipart\\pic-1.png",
+      "PackagePath": "staticwebassets\\owner\\images\\faces-clipart\\pic-1.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces-clipart\\pic-2.png",
+      "PackagePath": "staticwebassets\\owner\\images\\faces-clipart\\pic-2.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces-clipart\\pic-3.png",
+      "PackagePath": "staticwebassets\\owner\\images\\faces-clipart\\pic-3.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces-clipart\\pic-4.png",
+      "PackagePath": "staticwebassets\\owner\\images\\faces-clipart\\pic-4.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\owner\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\owner\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\owner\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\owner\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\owner\\images\\logo.svg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\sprites\\blue.png",
+      "PackagePath": "staticwebassets\\owner\\images\\sprites\\blue.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\sprites\\dark.png",
+      "PackagePath": "staticwebassets\\owner\\images\\sprites\\dark.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\sprites\\flag.png",
+      "PackagePath": "staticwebassets\\owner\\images\\sprites\\flag.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\sprites\\green.png",
+      "PackagePath": "staticwebassets\\owner\\images\\sprites\\green.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\sprites\\jsgrid-icons.png",
+      "PackagePath": "staticwebassets\\owner\\images\\sprites\\jsgrid-icons.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\sprites\\red.png",
+      "PackagePath": "staticwebassets\\owner\\images\\sprites\\red.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\images\\sprites\\yellow.png",
+      "PackagePath": "staticwebassets\\owner\\images\\sprites\\yellow.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\js\\chart.js",
+      "PackagePath": "staticwebassets\\owner\\js\\chart.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\owner\\js\\dashboard.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\owner\\js\\file-upload.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\owner\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\owner\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\js\\misc.js",
+      "PackagePath": "staticwebassets\\owner\\js\\misc.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\owner\\js\\off-canvas.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\js\\todo.js",
+      "PackagePath": "staticwebassets\\owner\\js\\todo.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\owner\\js\\todolist.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_dashboard.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_dashboard.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_demo.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_footer.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_misc.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_reset.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_typography.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\_widget-grid.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\_widget-grid.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_preview.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_preview.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\components\\_todo-list.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\components\\_todo-list.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_background.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_background.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_popovers.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_popovers.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_text.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_text.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\mixins\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\mixins\\_tooltips.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\owner\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\owner\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\vendors\\css\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\owner\\vendors\\css\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\vendors\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\owner\\vendors\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\vendors\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\owner\\vendors\\js\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\owner\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\owner\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\owner\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\owner\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\owner\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\owner\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\owner\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\user\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\user\\assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\about-fullscreen-1-1920x700.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\about-fullscreen-1-1920x700.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\banner-image-1-1920x300.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\banner-image-1-1920x300.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\blog-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\blog-1-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\blog-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\blog-2-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\blog-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\blog-3-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\blog-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\blog-4-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\blog-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\blog-5-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\blog-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\blog-6-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\blog-fullscreen-1-1920x700.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\blog-fullscreen-1-1920x700.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\comment-author-01.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\comment-author-01.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\comment-author-02.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\comment-author-02.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\comment-author-03.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\comment-author-03.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\cta-bg.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\map.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\map.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\product-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\product-1-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\product-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\product-2-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\product-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\product-3-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\product-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\product-4-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\product-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\product-5-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\images\\product-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\user\\assets\\images\\product-6-720x480.jpg"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\js\\accordions.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\accordions.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\isotope.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\js\\owl.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\owl.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\assets\\js\\slick.js",
+      "PackagePath": "staticwebassets\\user\\assets\\js\\slick.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\user\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\user\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\user\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\user\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FPTBook_v3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FPTBook_v3.props",
+      "PackagePath": "build\\FPTBook_v3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FPTBook_v3.props",
+      "PackagePath": "buildMultiTargeting\\FPTBook_v3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FPTBook_v3.props",
+      "PackagePath": "buildTransitive\\FPTBook_v3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

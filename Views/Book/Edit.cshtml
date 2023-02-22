@@ -1,0 +1,53 @@
+﻿@model FPTBook_v3.Models.Book
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutOwner.cshtml";
+}
+
+<form asp-controller="Book" asp-action="Edit" asp-route-img="@Model.book_ImagURL" method="post" enctype="multipart/form-data">
+
+
+    Title:
+    <input type="text" asp-for="book_Title" />
+    <span class="text-danger" asp-validation-for="book_Title"></span>
+    <br />
+
+    Category:
+    <div>
+        <select asp-for="cate_Id" asp-items="ViewBag.cate_Id">
+        </select>
+        <span asp-validation-for="cate_Id" class="text-danger"></span>
+    </div>
+    <br />
+
+    Publication Date:
+    <input type="date" asp-for="publication_date" />
+    <span class="text-danger" asp-validation-for="publication_date"></span>
+    <br />
+
+    Price:
+    <input type="text" asp-for="book_Price" />
+    <span class="text-danger" asp-validation-for="book_Price"></span>
+    <br />
+
+    Quantity:
+    <input type="text" asp-for="book_Quantity" />
+    <span class="text-danger" asp-validation-for="book_Quantity"></span>
+    <br />
+
+    Image:
+    <div class="form-group">
+        <input type="file" asp-for="book_Img" />
+        <img src="~/uploads/@Model.book_ImagURL" style="height:200px;width:250px" />
+        <span asp-validation-for="book_Img" class="text-danger"></span>
+    </div>
+
+    Description:
+    <input type="text" asp-for="book_Description" />
+    <span class="text-danger" asp-validation-for="book_Description"></span>
+    <br />
+
+    <input type="submit" value="Update" />
+
+</form>

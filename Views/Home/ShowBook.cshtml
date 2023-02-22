@@ -1,0 +1,31 @@
+﻿@model IEnumerable< FPTBook_v3.Models.Book>
+
+@{
+    ViewData["Title"] = "ShowBook";
+}
+
+<h1>ShowBook</h1>
+
+
+<section class="blog-posts grid-system">
+    <div class="container">
+        <div class="all-blog-posts">
+            @foreach (var book in Model)
+    {
+        <div class="row ">
+
+            <div class="col-lg-3 ">
+        <div class="card">
+            <img src="..." class="" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@book.book_Title</h5>
+                <p class="card-text">@book.book_Price</p>
+                <a asp-controller="Cart" asp-action ="AddToCart" asp-route-productid="@book.book_Id" class="btn btn-primary">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+</div>
+            }
+        </div>
+    </div>
+    </div>

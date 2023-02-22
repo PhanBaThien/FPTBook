@@ -1,0 +1,60 @@
+﻿@model IEnumerable< FPTBook_v3.Models.Book>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutOwner.cshtml";
+}
+
+<a class="btn btn-primary" asp-controller="Book" asp-action="Create">Add New</a>
+
+<table class="table table-hover">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Title
+        </th>
+        <th>
+            Image
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Category
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Publication Date
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            
+        </th>
+    </tr>
+    @foreach (var book in Model)
+    {
+        <tr>
+            <td>@book.book_Id</td>
+            <td>@book.book_Title</td>
+            <td> <img src="~/uploads/@book.book_ImagURL" width="100px" height="150px"></td>
+            <td>@book.book_Price</td>
+            <td>@book.category.cate_Name</td>
+            <td>@book.book_Quantity</td>
+            <td>@book.publication_date</td>
+            <td>@book.book_Description</td>
+
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@book.book_Id" asp-route-img="@book.book_Img">Edit</a>
+                <a asp-action="Delete" asp-route-id="@book.book_Id" onclick="return confirm ('Are you sure?')">Delete</a>
+               @* <a asp-action="AddToCart" asp-route-productid="@book.book_Id">Add To Cart</a>*@
+            </td>
+        </tr>
+    }
+</table>
