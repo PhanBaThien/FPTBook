@@ -8,11 +8,11 @@ namespace FPTBook_v3.Controllers
     {
         private readonly ApplicationDbContext _db;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
 
 
         public Order(ApplicationDbContext db,
-            UserManager<IdentityUser> userManager,
+            UserManager<ApplicationUser> userManager,
              IHttpContextAccessor httpContextAccessor)
         {
             _db = db;

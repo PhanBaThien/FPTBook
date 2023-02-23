@@ -8,7 +8,6 @@ using FPTBook_v3.Data;
 using FPTBook_v3.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using FPTBook_v3.Repositories;
 
 namespace FPTBook_v3.Controllers
 {
@@ -53,13 +52,13 @@ namespace FPTBook_v3.Controllers
             return Ok(cartItem);
         }
 
-        /*public async Task<IActionResult> Checkout()
+        public async Task<IActionResult> Checkout()
         {
             bool isCheckedOut = await DoCheckout();
             if (!isCheckedOut)
                 throw new Exception("Something happen in server side");
             return RedirectToAction("Index", "Home");
-        }*/
+        }
 
 
         public async Task<int> AddItemCart(int bookId, int qty)
@@ -173,7 +172,7 @@ namespace FPTBook_v3.Controllers
             return data.Count;
         }
 
-        /*public async Task<bool> DoCheckout()
+        public async Task<bool> DoCheckout()
         {
             using var transaction = _db.Database.BeginTransaction();
             try
@@ -190,7 +189,7 @@ namespace FPTBook_v3.Controllers
                                     .Where(a => a.ShoppingCartId == cart.Id).ToList();
                 if (cartDetail.Count == 0)
                     throw new Exception("Cart is empty");
-                var order = new Order
+                var order = new Models.Order
                 {
                     UserId = userId,
                     CreateDate = DateTime.UtcNow,
@@ -221,7 +220,7 @@ namespace FPTBook_v3.Controllers
 
                 return false;
             }
-        }*/
+        }
 
         private string GetUserId()
         {
