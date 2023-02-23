@@ -1,0 +1,24 @@
+﻿@model ChangePassword
+
+
+
+<form asp-controller="Admin" asp-action="EditOwner" asp-route-ownerid="@ViewData["id"]" method="post">
+
+
+    Current Password:
+    <input type="text" asp-for="CurrentPassword"/>
+    <span class="text-danger" asp-validation-for="CurrentPassword"></span>
+    <br />
+    New Password:
+    <input type="text" asp-for="NewPassword" />
+    <span class="text-danger" asp-validation-for="NewPassword"></span>
+    <br />
+    Confirm Password:
+    <input type="text" asp-for="ConfirmPassword" />
+    <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+    <br />
+
+
+    <input type="submit" value="Update" />
+
+</form>

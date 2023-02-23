@@ -1,4 +1,5 @@
 ﻿using FPTBook_v3.Constants;
+using FPTBook_v3.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +10,6 @@ namespace FPTBook_v3.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ApplicationDbContext _db;
-        private readonly RoleManager<ApplicationUser> _rolemanager;
         public AdminController(ApplicationDbContext db,
             UserManager<ApplicationUser> userManager)
         {
@@ -43,6 +43,62 @@ namespace FPTBook_v3.Controllers
                               where role.Name == "Owner"
                               select users).ToListAsync();
             return View(owner);
+        }
+
+        public IActionResult EditOwner(string id)
+        {
+            var user = _db.Users.Find(id);
+            if (user == null)
+            {
+                return RedirectToAction("ShowOwner");
+            }
+            ViewData["id"] = id;
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditOwner(string ownerid, ChangePassword model)
+        {
+            if (ModelState.IsValid)
+            {
+                var owner = await _userManager.FindByIdAsync(ownerid);
+                await _userManager.ChangePasswordAsync(owner, model.CurrentPassword, model.NewPassword);
+
+                return RedirectToAction("ShowOwner");
+            }
+            else
+            {
+                return View(model);
+            }
+            
+        }
+
+        public IActionResult EditUser(string id)
+        {
+            var user = _db.Users.Find(id);
+            if (user == null)
+            {
+                return RedirectToAction("ShowUser");
+            }
+            ViewData["id"] = id;
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditUser(string ownerid, ChangePassword model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.FindByIdAsync(ownerid);
+                await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+
+                return RedirectToAction("ShowUser");
+            }
+            else
+            {
+                return View(model);
+            }
+
         }
 
         public IActionResult RequestCategory()
