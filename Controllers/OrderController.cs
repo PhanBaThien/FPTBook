@@ -41,11 +41,10 @@ namespace FPTBook_v3.Controllers
             return userId;
         }
 
-        public IActionResult ShowOrder()
+        public async Task<IActionResult> OrderDetail()
         {
-            IEnumerable<Order> ds = _db.Orders.ToList();
-
-            return View(ds);
+            var orders = await UserOrders();
+            return View(orders);
         }
     }
 }
