@@ -20,7 +20,7 @@ namespace FPTBook_v3.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> Index(string sterm = "", int genreId = 0)
+        public async Task<IActionResult> ShowBook(string sterm = "", int genreId = 0)
         {
             
             IEnumerable<Book> books = await GetBooks(sterm, genreId);
@@ -36,6 +36,11 @@ namespace FPTBook_v3.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Index()
         {
             return View();
         }

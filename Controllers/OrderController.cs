@@ -1,17 +1,18 @@
 ﻿using FPTBook_v3.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FPTBook_v3.Controllers
 {
-    public class Order
+    public class OrderController : Controller
     {
         private readonly ApplicationDbContext _db;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly UserManager<ApplicationUser> _userManager;
 
 
-        public Order(ApplicationDbContext db,
+        public OrderController(ApplicationDbContext db,
             UserManager<ApplicationUser> userManager,
              IHttpContextAccessor httpContextAccessor)
         {
@@ -38,6 +39,13 @@ namespace FPTBook_v3.Controllers
             var principal = _httpContextAccessor.HttpContext.User;
             string userId = _userManager.GetUserId(principal);
             return userId;
+        }
+
+        public IActionResult ShowOrder()
+        {
+            IEnumerable<Order> ds = _db.Orders.ToList();
+
+            return View(ds);
         }
     }
 }

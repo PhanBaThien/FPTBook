@@ -124,7 +124,7 @@ namespace FPTBook_v3.Areas.Identity.Pages.Account
                     var roles = await _userManager.GetRolesAsync(signedUser);
                     if (roles.Contains("User"))
                     {
-                        return Redirect("/Book");
+                        return Redirect("~/Home/ShowBook");
                     }
                     else if (roles.Contains("Owner"))
                     {
