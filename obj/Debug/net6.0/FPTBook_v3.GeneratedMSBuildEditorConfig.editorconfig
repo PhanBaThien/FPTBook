@@ -196,6 +196,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1VzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/FPTBook_v3/FPTBook_v3/Views/Book/BookDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29rRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/FPTBook_v3/FPTBook_v3/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

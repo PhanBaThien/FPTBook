@@ -1,0 +1,90 @@
+﻿@model FPTBook_v3.Models.Book
+
+@{
+    ViewData["Title"] = "BookDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>BookDetail</h1>
+
+<div>
+    <h4>Book</h4>
+    <hr />
+    <dl class="row">
+        <dd class="col-sm-2">
+            @Html.DisplayNameFor(model => model.book_ImagURL)
+        </dd>
+        <dt class="col-sm-10">
+            <img href="~/uploads/@Model.book_ImagURL" style="width:150px;height:200px" />
+        </dt>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.book_Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.book_Title)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.publication_date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.publication_date)
+        </dd>
+       
+       
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.book_Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.book_Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.book_Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.book_Price)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.book_Quantity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.book_Quantity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.category)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.category.cate_Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a onclick="add(@Model.book_Id)" class="btn btn-primary">Add To Cart</a>
+    <a asp-action="ShowBook" class="btn btn-primary">Back to List</a>
+</div>
+
+@section Scripts{
+    <script>
+        async function add(bookId) {
+            var usernameEl = document.getElementById("username");
+            if (usernameEl == null) {
+                window.location.href = "/Identity/Account/Login";
+                //var username=usernameEl.innerText;
+                //  if(username.length<1){
+                //      window.location.href="/Identity/Account/Login";
+                //  }
+            }
+            try {
+                var response = await fetch(`/Cart/AddItem?bookId=${bookId}`);
+                if (response.status == 200) {
+                    var result = await response.json();
+                    var cartCountEl = document.getElementById("cartCount");
+                    cartCountEl.innerHTML = result;
+                    window.location.href = "/Cart/GetUserCart";
+                }
+            }
+            catch (err) {
+                console.log(err);
+            }
+        }
+    </script>
+}

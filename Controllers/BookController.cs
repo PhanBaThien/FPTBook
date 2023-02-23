@@ -2,6 +2,7 @@
 using FPTBook_v3.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace FPTBook_v3.Controllers
 {
@@ -30,6 +31,29 @@ namespace FPTBook_v3.Controllers
         {
             IEnumerable<Book> ds = _db.Books.ToList();
             return View(ds);
+        }
+
+
+        [Route("/Book/Detail")]
+        public IActionResult BookDetail(int id)
+        {
+            if (id == null || _db.Books == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                var book = _db.Books.FirstOrDefault(b => b.book_Id == id);
+                if (book == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    return View(book);
+                }
+            }
+            
         }
 
         [Route("/Owner/Book/Create")]
