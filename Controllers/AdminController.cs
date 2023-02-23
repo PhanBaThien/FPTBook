@@ -44,5 +44,44 @@ namespace FPTBook_v3.Controllers
                               select users).ToListAsync();
             return View(owner);
         }
+
+        public IActionResult RequestCategory()
+        {
+            var category = _db.Categorys.Where(c => c.cate_Status == "processing").ToList();
+            return View(category);
+        }
+
+        public IActionResult Approval(int id)
+        {
+            Category category = _db.Categorys.Find(id);
+            if (category == null)
+            {
+                return RedirectToAction("RequestCategory");
+            }
+            else
+            {
+                category.cate_Status = "processed";
+                _db.Categorys.Update(category);
+                _db.SaveChanges();
+                return RedirectToAction("RequestCategory");
+            }
+            
+        }
+
+
+        public IActionResult Reject(int id)
+        {
+            Category category = _db.Categorys.Find(id);
+            if (category == null)
+            {
+                return RedirectToAction("RequestCategory");
+            }
+            else
+            {
+                _db.Categorys.Remove(category);
+                _db.SaveChanges();
+                return RedirectToAction("RequestCategory");
+            }
+        }
     }
 }
