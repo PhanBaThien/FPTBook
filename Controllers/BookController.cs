@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FPTBook_v3.Controllers
 {
-    [Route("/Owner")]
+
     [Authorize(Roles = "Owner")]
     public class BookController : Controller
     {
@@ -32,14 +32,6 @@ namespace FPTBook_v3.Controllers
             };
             return View(bookModel);
         }
-
-        /*        [Route("/Book")]
-                public async Task<IActionResult> ShowBook()
-                {
-                    IEnumerable<Book> ds = _db.Books.ToList();
-                    return View(ds);
-                }*/
-  
 
 
         [Route("/Owner/Book/Create")]

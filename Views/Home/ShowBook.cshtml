@@ -7,7 +7,7 @@
         <div class="col-4">
             <label class="visually-hidden" for="genreId">Genres</label>
             <select class="form-select" id="genreId" name="genreId">
-                <option selected>Genre</option>
+                <option selected>Catgory choose</option>
                 @foreach (var genre in Model.Categorys)
                 {
                     <option selected="@(genre.cate_Id == Model.GenreId)" value="@genre.cate_Id">@genre.cate_Name</option>

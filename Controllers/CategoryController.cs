@@ -8,7 +8,7 @@ namespace FPTBook_v3.Models
 
     [Authorize(Roles = "Owner")]
 
-    [Route("/Owner/Category")]
+
     public class CategoryController : Controller
     {
         private readonly ApplicationDbContext _db;

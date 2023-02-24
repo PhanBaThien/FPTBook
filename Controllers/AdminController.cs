@@ -22,7 +22,8 @@ namespace FPTBook_v3.Controllers
         {
             return View();
         }
-        
+
+        [Route("Admin/ShowUser")]
         public async Task<IActionResult> ShowUser()
         {   
             var user = await (from users in _db.Users
@@ -35,6 +36,7 @@ namespace FPTBook_v3.Controllers
             return View(user);
         }
 
+        [Route("Admin/ShowOwner")]
         public async Task<IActionResult> ShowOwner()
         {
             var owner = await (from users in _db.Users
@@ -47,6 +49,7 @@ namespace FPTBook_v3.Controllers
             return View(owner);
         }
 
+        [Route("Admin/ShowOwner/EditOwner/{:id}")]
         public IActionResult EditOwner(string id)
         {
             var user = _db.Users.Find(id);
@@ -75,6 +78,7 @@ namespace FPTBook_v3.Controllers
             
         }
 
+        [Route("Admin/ShowOwner/EditUser/{:id}")]
         public IActionResult EditUser(string id)
         {
             var user = _db.Users.Find(id);
@@ -103,12 +107,15 @@ namespace FPTBook_v3.Controllers
 
         }
 
+
+        [Route("Admin/RequestCategory")]
         public IActionResult RequestCategory()
         {
             var category = _db.Categorys.Where(c => c.cate_Status == "processing").ToList();
             return View(category);
         }
 
+        [Route("Admin/RequestCategory/Approval")]
         public IActionResult Approval(int id)
         {
             Category category = _db.Categorys.Find(id);
@@ -127,6 +134,7 @@ namespace FPTBook_v3.Controllers
         }
 
 
+        [Route("Admin/RequestCategory/Reject")]
         public IActionResult Reject(int id)
         {
             Category category = _db.Categorys.Find(id);
@@ -140,19 +148,6 @@ namespace FPTBook_v3.Controllers
                 _db.SaveChanges();
                 return RedirectToAction("RequestCategory");
             }
-        }
-
-
-        public async Task<IActionResult>  GetOrder()
-        {
-            var orders = await _db.Orders
-                            .Include(x => x.ApplicationUsers)
-                            .Include(x => x.OrderDetail)
-                            .ThenInclude(x => x.Book)
-                            .ThenInclude(x => x.category)
-                            
-                            .ToListAsync();
-            return View(orders);
         }
     }
 }

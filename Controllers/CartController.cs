@@ -27,6 +27,7 @@ namespace FPTBook_v3.Controllers
             _httpContextAccessor = httpContextAccessor;
         }
 
+        [Route("User/AddItem")]
         public async Task<IActionResult> AddItem(int bookId, int qty = 1, int redirect = 0)
         {
             var cartCount = await AddItemCart(bookId, qty);
@@ -35,16 +36,20 @@ namespace FPTBook_v3.Controllers
             return RedirectToAction("GetUserCart");
         }
 
+        [Route("User/RemoveItem")]
         public async Task<IActionResult> RemoveItem(int bookId)
         {
             var cartCount = await RemoveCartItem(bookId);
             return RedirectToAction("GetUserCart");
         }
+
+        [Route("User/GetUserCart")]
         public async Task<IActionResult> GetUserCart()
         {
             var cart = await GetCartItem();
             return View(cart);
         }
+
 
         public async Task<IActionResult> GetTotalItemInCart()
         {
@@ -52,6 +57,7 @@ namespace FPTBook_v3.Controllers
             return Ok(cartItem);
         }
 
+        [Route("User/Checkout")]
         public async Task<IActionResult> Checkout()
         {
             bool isCheckedOut = await DoCheckout();

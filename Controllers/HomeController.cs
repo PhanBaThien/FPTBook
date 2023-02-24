@@ -30,15 +30,13 @@ namespace FPTBook_v3.Controllers
             {
                 Books = books,
                 Categorys = categorys,
-                STerm = sterm,
-                GenreId = genreId
             };
             return View(bookModel);
         }
 
 
         [Route("/Book/Detail")]
-        public async Task<IActionResult> BookDetail(int id, string cate)
+        public async Task<IActionResult> BookDetail(int id)
         {
             if (id == null || _db.Books == null)
             {
@@ -82,6 +80,7 @@ namespace FPTBook_v3.Controllers
 
         public async Task<IEnumerable<Book>> GetBooks(string sTerm = "", int genreId = 0)
         {
+            
             IEnumerable<Book> books = await (from book in _db.Books
                                              join genre in _db.Categorys
                                              on book.cate_Id equals genre.cate_Id
@@ -97,10 +96,24 @@ namespace FPTBook_v3.Controllers
                                                  book_Description = book.book_Description
                                              }
                          ).ToListAsync();
-            if (genreId > 0)
+
+            if (genreId != 0 && sTerm != null)
             {
 
-                books = books.Where(a => a.book_Id == genreId).ToList();
+                books = await (from book in _db.Books
+                                   join genre in _db.Categorys
+                                   on book.cate_Id equals genre.cate_Id
+                                   where genre.cate_Id == genreId && (book != null && book.book_Title.ToLower().StartsWith(sTerm))
+                               select book).ToListAsync();
+                /*books = books.Where(a => a.book_Id == genreId).ToList();*/
+            }
+            else if (genreId != 0 && sTerm == null)
+            {
+                books = await (from book in _db.Books
+                               join genre in _db.Categorys
+                               on book.cate_Id equals genre.cate_Id
+                               where genre.cate_Id == genreId
+                               select book).ToListAsync();
             }
             return books;
 

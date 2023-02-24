@@ -24,6 +24,8 @@ namespace FPTBook_v3.Controllers
             _httpContextAccessor = httpContextAccessor;
             _userManager = userManager;
         }
+
+        [Route("/User/UserOrders")]
         public async Task<IEnumerable<Order>> UserOrders()
         {
             var userId = GetUserId();
@@ -45,9 +47,24 @@ namespace FPTBook_v3.Controllers
             return userId;
         }
 
+
+        [Route("/User/UserOrders/OrderDetail")]
         public async Task<IActionResult> OrderDetail()
         {
             var orders = await UserOrders();
+            return View(orders);
+        }
+
+        [Route("Owner/GetOrder")]
+        public async Task<IActionResult> GetOrder()
+        {
+            var orders = await _db.Orders
+                            .Include(x => x.ApplicationUsers)
+                            .Include(x => x.OrderDetail)
+                            .ThenInclude(x => x.Book)
+                            .ThenInclude(x => x.category)
+
+                            .ToListAsync();
             return View(orders);
         }
     }
