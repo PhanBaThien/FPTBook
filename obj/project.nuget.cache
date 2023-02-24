@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "x/ljqsxod97DFDyxZW6c4VLBKj5NflbTvGa7Nb2PpSqPpeW4EyG/7MYl79k839cnpLcK2EtTisuTTWaQsloqvw==",
+  "dgSpecHash": "p+Qm9td5p9Q+vlgJTIwBUrG7KdqL/1WxXz5sDZHRy+in6mgVP0gQrno+k/8dbK3S+MEsEG+fyjkoTuznJ868hw==",
   "success": true,
   "projectFilePath": "D:\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

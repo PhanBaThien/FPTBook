@@ -149,5 +149,37 @@ namespace FPTBook_v3.Controllers
                 return RedirectToAction("RequestCategory");
             }
         }
+
+        [Route("Admin/RegisterOwner")]
+        public async Task<IActionResult> RegisterOwner()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [Route("Admin/RegisterOwner")]
+        public async Task<IActionResult> RegisterOwner(Owner owners)
+        {
+            if (ModelState.IsValid)
+            {
+                var owner = new ApplicationUser
+                {
+                    UserName = owners.Email,
+                    User_Name = owners.Name,
+                    Email = owners.Email,
+
+                };
+                var result = await _userManager.CreateAsync(owner, owners.Password);
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(owner, Role.Owner.ToString());
+                }
+                else
+                {
+                    return RedirectToAction("Register");
+                }
+            }
+            return RedirectToAction("ShowOwner");
+        }
     }
 }

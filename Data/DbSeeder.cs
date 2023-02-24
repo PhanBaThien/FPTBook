@@ -1,6 +1,7 @@
 ﻿
 using FPTBook_v3.Constants;
 using Microsoft.AspNetCore.Identity;
+using NuGet.Common;
 
 namespace FPTBook_v3.Data
 {
@@ -22,6 +23,7 @@ namespace FPTBook_v3.Data
                 Email = "User@gmail.com",
                 User_Name = "User",
 
+
             };
 
             var userInDb = await userManager.FindByEmailAsync(user.Email);
@@ -36,7 +38,7 @@ namespace FPTBook_v3.Data
                 UserName = "Owner@gmail.com",
                 Email = "Owner@gmail.com",
                 User_Name = "Owner",
-
+                
             };
 
             var ownerInDb = await userManager.FindByEmailAsync(owner.Email);

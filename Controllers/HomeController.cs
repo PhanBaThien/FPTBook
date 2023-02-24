@@ -3,6 +3,7 @@ using FPTBook_v3.Data;
 using FPTBook_v3.Models;
 using FPTBook_v3.Models.DTOs;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
