@@ -1,10 +1,14 @@
 ﻿using FPTBook_v3.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FPTBook_v3.Controllers
 {
+
+
+    [Authorize(Roles = "User")]
     public class OrderController : Controller
     {
         private readonly ApplicationDbContext _db;

@@ -23,6 +23,7 @@ namespace FPTBook_v3.Models
         public IActionResult Index()
         {
             IEnumerable<Category> ds = _db.Categorys.Where(c => c.cate_Status == "processed").ToList();
+            
             return View(ds);
         }
 

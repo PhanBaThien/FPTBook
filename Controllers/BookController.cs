@@ -1,5 +1,6 @@
 ﻿using FPTBook_v3.Data;
 using FPTBook_v3.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace FPTBook_v3.Controllers
 {
     [Route("/Owner")]
+    [Authorize(Roles = "Owner")]
     public class BookController : Controller
     {
         private readonly ApplicationDbContext _db;
@@ -19,11 +21,16 @@ namespace FPTBook_v3.Controllers
         }
 
         [Route("/Owner/Book")]
-        public IActionResult Index()
+        public async Task<IActionResult>  Index()
         {
-            IEnumerable<Book> ds = _db.Books.ToList();
-            
-            return View(ds);
+            IEnumerable<Book> books = await GetBooks();
+            IEnumerable<Category> categorys = await _db.Categorys.ToListAsync(); ;
+            Models.BookDisplayModel bookModel = new Models.BookDisplayModel
+            {
+                Books = books,
+                Categorys = categorys
+            };
+            return View(bookModel);
         }
 
         /*        [Route("/Book")]
@@ -155,6 +162,26 @@ namespace FPTBook_v3.Controllers
         }
 
 
+
+        public async Task<IEnumerable<Book>> GetBooks()
+        {
+            IEnumerable<Book> books = await (from book in _db.Books
+                                             join genre in _db.Categorys
+                                             on book.cate_Id equals genre.cate_Id
+                                             select new Book
+                                             {
+                                                 book_Id = book.book_Id,
+                                                 book_ImagURL = book.book_ImagURL,
+                                                 category = book.category,
+                                                 book_Title = book.book_Title,
+                                                 cate_Id = book.cate_Id,
+                                                 book_Price = book.book_Price,
+                                                 book_Description = book.book_Description
+                                             }
+                         ).ToListAsync();
+            return books;
+
+        }
 
 
     }

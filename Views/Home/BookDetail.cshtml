@@ -27,7 +27,7 @@
             Publication Date
         </dt>
         <dd class = "col-sm-10">
-            @Model.publication_date
+            @Model.publication_date.ToString("dd/MM/yyyy")
         </dd>
         <dt class = "col-sm-2">
             Description
@@ -45,7 +45,7 @@
             Category
         </dt>
         <dd class = "col-sm-10">
-            @ViewData["category"]
+            @Model.category.cate_Name
         </dd>
     </dl>
 </div>

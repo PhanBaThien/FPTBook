@@ -21,11 +21,8 @@ namespace FPTBook_v3.Controllers
         }
 
         [Route("Home/ShowBook")]
-        public async Task<IActionResult> ShowBook()
+        public async Task<IActionResult> ShowBook(string sterm = "", int genreId = 0)
         {
-            string sterm = "";
-            int genreId = 0;
-
 
             IEnumerable<Book> books = await GetBooks(sterm, genreId);
             IEnumerable<Category> categorys = await _db.Categorys.ToListAsync(); ;
@@ -49,14 +46,13 @@ namespace FPTBook_v3.Controllers
             }
             else
             {
-                var book = _db.Books.FirstOrDefault(b => b.book_Id == id);
+                var book = _db.Books.Include(x => x.category).FirstOrDefault(b => b.book_Id == id);
                 if (book == null)
                 {
                     return NotFound();
                 }
                 else
                 {
-                    ViewData["category"] = cate;
                     return View(book);
                 }
             }

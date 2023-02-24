@@ -1,11 +1,13 @@
 ﻿using FPTBook_v3.Constants;
 using FPTBook_v3.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FPTBook_v3.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
@@ -138,6 +140,19 @@ namespace FPTBook_v3.Controllers
                 _db.SaveChanges();
                 return RedirectToAction("RequestCategory");
             }
+        }
+
+
+        public async Task<IActionResult>  GetOrder()
+        {
+            var orders = await _db.Orders
+                            .Include(x => x.ApplicationUsers)
+                            .Include(x => x.OrderDetail)
+                            .ThenInclude(x => x.Book)
+                            .ThenInclude(x => x.category)
+                            
+                            .ToListAsync();
+            return View(orders);
         }
     }
 }
