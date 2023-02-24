@@ -12,48 +12,40 @@
     <hr />
     <dl class="row">
         <dd class="col-sm-2">
-            @Html.DisplayNameFor(model => model.book_ImagURL)
+            Img
         </dd>
         <dt class="col-sm-10">
             <img href="~/uploads/@Model.book_ImagURL" style="width:150px;height:200px" />
         </dt>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.book_Title)
+            Title
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.book_Title)
+            @Model.book_Title
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.publication_date)
+            Publication Date
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.publication_date)
-        </dd>
-       
-       
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.book_Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.book_Description)
+            @Model.publication_date
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.book_Price)
+            Description
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.book_Price)
+            @Model.book_Description
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.book_Quantity)
+            Price
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.book_Quantity)
+           @Model.book_Price
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.category)
+            Category
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.category.cate_Description)
+            @ViewData["category"]
         </dd>
     </dl>
 </div>

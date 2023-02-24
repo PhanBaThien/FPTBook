@@ -10,9 +10,6 @@
 <table class="table table-hover">
     <tr>
         <th>
-            ID
-        </th>
-        <th>
             Title
         </th>
         <th>
@@ -40,11 +37,10 @@
     @foreach (var book in Model)
     {
         <tr>
-            <td>@book.book_Id</td>
             <td>@book.book_Title</td>
             <td> <img src="~/uploads/@book.book_ImagURL" width="100px" height="150px"></td>
             <td>@book.book_Price</td>
-            <td>@book.category.cate_Name</td>
+            <td>@book.cate_Id</td>
             <td>@book.book_Quantity</td>
             <td>@book.publication_date</td>
             <td>@book.book_Description</td>

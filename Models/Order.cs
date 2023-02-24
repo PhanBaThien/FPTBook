@@ -13,5 +13,8 @@ namespace FPTBook_v3.Models
         public DateTime CreateDate { get; set; } = DateTime.UtcNow;
 
         public List<OrderDetail> OrderDetail { get; set; }
+
+        [ForeignKey("UserId")]
+        public virtual ApplicationUser? ApplicationUsers { get; set; }
     }
 }

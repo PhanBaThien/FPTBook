@@ -20,9 +20,13 @@ namespace FPTBook_v3.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> ShowBook(string sterm = "", int genreId = 0)
+        [Route("Home/ShowBook")]
+        public async Task<IActionResult> ShowBook()
         {
-            
+            string sterm = "";
+            int genreId = 0;
+
+
             IEnumerable<Book> books = await GetBooks(sterm, genreId);
             IEnumerable<Category> categorys = await _db.Categorys.ToListAsync(); ;
             Models.BookDisplayModel bookModel = new Models.BookDisplayModel
@@ -35,6 +39,29 @@ namespace FPTBook_v3.Controllers
             return View(bookModel);
         }
 
+
+        [Route("/Book/Detail")]
+        public async Task<IActionResult> BookDetail(int id, string cate)
+        {
+            if (id == null || _db.Books == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                var book = _db.Books.FirstOrDefault(b => b.book_Id == id);
+                if (book == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    ViewData["category"] = cate;
+                    return View(book);
+                }
+            }
+
+        }
         public IActionResult Privacy()
         {
             return View();
@@ -55,9 +82,10 @@ namespace FPTBook_v3.Controllers
         {
             return await _db.Categorys.ToListAsync();
         }
+
+
         public async Task<IEnumerable<Book>> GetBooks(string sTerm = "", int genreId = 0)
         {
-            sTerm = sTerm.ToLower();
             IEnumerable<Book> books = await (from book in _db.Books
                                              join genre in _db.Categorys
                                              on book.cate_Id equals genre.cate_Id

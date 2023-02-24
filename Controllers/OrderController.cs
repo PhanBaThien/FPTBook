@@ -31,7 +31,7 @@ namespace FPTBook_v3.Controllers
                             .ThenInclude(x => x.category)
                             .Where(a => a.UserId == userId)
                             .ToListAsync();
-            return (IEnumerable<Order>)orders;
+            return orders;
         }
 
         private string GetUserId()

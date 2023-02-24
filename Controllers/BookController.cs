@@ -26,35 +26,14 @@ namespace FPTBook_v3.Controllers
             return View(ds);
         }
 
-        [Route("/Book")]
-        public IActionResult ShowBook()
-        {
-            IEnumerable<Book> ds = _db.Books.ToList();
-            return View(ds);
-        }
-
-
-        [Route("/Book/Detail")]
-        public IActionResult BookDetail(int id)
-        {
-            if (id == null || _db.Books == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                var book = _db.Books.FirstOrDefault(b => b.book_Id == id);
-                if (book == null)
+        /*        [Route("/Book")]
+                public async Task<IActionResult> ShowBook()
                 {
-                    return NotFound();
-                }
-                else
-                {
-                    return View(book);
-                }
-            }
-            
-        }
+                    IEnumerable<Book> ds = _db.Books.ToList();
+                    return View(ds);
+                }*/
+  
+
 
         [Route("/Owner/Book/Create")]
         public IActionResult Create()

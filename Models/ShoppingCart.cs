@@ -13,6 +13,8 @@ namespace FPTBook_v3.Models
         public string UserId { get; set; }
 
         public ICollection<CartDetail> CartDetails { get; set; }
-        
+
+        [ForeignKey("UserId")]
+        public virtual ApplicationUser? ApplicationUsers { get; set; }
     }
 }
