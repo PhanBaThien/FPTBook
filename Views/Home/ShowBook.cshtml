@@ -68,12 +68,12 @@
                 //  }
             }
             try {
-                var response = await fetch(`/Cart/AddItem?bookId=${bookId}`);
+                var response = await fetch(`/User/Cart/AddItem?bookId=${bookId}`);
                 if (response.status == 200) {
                     var result = await response.json();
                     var cartCountEl = document.getElementById("cartCount");
                     cartCountEl.innerHTML = result;
-                    window.location.href = "/Cart/GetUserCart";
+                    window.location.href = "/User/Cart/GetUserCart";
                 }
             }
             catch (err) {

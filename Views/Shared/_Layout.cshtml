@@ -54,7 +54,7 @@
     loadCartCount();
     async function loadCartCount() {
         try {
-            var response = await fetch(`/Cart/GetTotalItemInCart`);
+            var response = await fetch(`/User/Cart/GetTotalItemInCart`);
             console.log(response)
             if (response.status == 200) {
                 var result = await response.json();

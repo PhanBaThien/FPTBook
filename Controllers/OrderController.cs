@@ -8,7 +8,7 @@ namespace FPTBook_v3.Controllers
 {
 
 
-    [Authorize(Roles = "User")]
+    
     public class OrderController : Controller
     {
         private readonly ApplicationDbContext _db;
@@ -25,6 +25,7 @@ namespace FPTBook_v3.Controllers
             _userManager = userManager;
         }
 
+        [Authorize(Roles = "User")]
         [Route("/User/UserOrders")]
         public async Task<IEnumerable<Order>> UserOrders()
         {
@@ -47,7 +48,7 @@ namespace FPTBook_v3.Controllers
             return userId;
         }
 
-
+        [Authorize(Roles = "User")]
         [Route("/User/UserOrders/OrderDetail")]
         public async Task<IActionResult> OrderDetail()
         {
@@ -55,6 +56,7 @@ namespace FPTBook_v3.Controllers
             return View(orders);
         }
 
+        [Authorize(Roles = "Owner")]
         [Route("Owner/GetOrder")]
         public async Task<IActionResult> GetOrder()
         {
