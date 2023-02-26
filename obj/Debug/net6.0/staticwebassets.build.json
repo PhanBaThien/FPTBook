@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Nxn4kRztAhC+Oic+w2Ilnoh/Hl3dEakH73OVI+cn+cU=",
+  "Hash": "GeatCGSzAuK8j/IkjXIV3E3XjXjpq5dFyOjiIzsUUzg=",
   "Source": "FPTBook_v3",
   "BasePath": "_content/FPTBook_v3",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\NoImage.png"
+    },
+    {
+      "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\images\\ny.jpg",
+      "SourceId": "FPTBook_v3",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\",
+      "BasePath": "_content/FPTBook_v3",
+      "RelativePath": "images/ny.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ny.jpg"
     },
     {
       "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\js\\site.js",
@@ -6050,6 +6067,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\26cf62c3-4604-4704-855e-aaeb20ed6800.jpg"
+    },
+    {
+      "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\346958e6-dc93-4c66-badd-183e064899f6289051010_450435450162654_3161096143541211625_n.jpg",
+      "SourceId": "FPTBook_v3",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\",
+      "BasePath": "_content/FPTBook_v3",
+      "RelativePath": "Uploads/346958e6-dc93-4c66-badd-183e064899f6289051010_450435450162654_3161096143541211625_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\346958e6-dc93-4c66-badd-183e064899f6289051010_450435450162654_3161096143541211625_n.jpg"
     },
     {
       "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\48cb5b1e-a5e1-4cf8-9258-91b8e5c5b47c.jpg",

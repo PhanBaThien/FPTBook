@@ -31,6 +31,12 @@ namespace FPTBook_v3.Controllers
         public async Task<IActionResult> AddItem(int bookId, int qty = 1, int redirect = 0)
         {
             var cartCount = await AddItemCart(bookId, qty);
+
+            var quantity = _db.Books.FirstOrDefault(a => a.book_Id == bookId);
+            quantity.book_Quantity--;
+            _db.Update(quantity);
+            _db.SaveChanges();
+
             if (redirect == 0)
                 return Ok(cartCount);
             return RedirectToAction("GetUserCart");
@@ -40,6 +46,10 @@ namespace FPTBook_v3.Controllers
         public async Task<IActionResult> RemoveItem(int bookId)
         {
             var cartCount = await RemoveCartItem(bookId);
+            var quantity = _db.Books.FirstOrDefault(a => a.book_Id == bookId);
+            quantity.book_Quantity++;
+            _db.Update(quantity);
+            _db.SaveChanges();
             return RedirectToAction("GetUserCart");
         }
 
@@ -90,6 +100,7 @@ namespace FPTBook_v3.Controllers
                                   .FirstOrDefault(a => a.ShoppingCartId == cart.Id && a.BookId == bookId);
                 if (cartItem is not null)
                 {
+                    
                     cartItem.Quantity += qty;
                 }
                 else
@@ -195,7 +206,7 @@ namespace FPTBook_v3.Controllers
                                     .Where(a => a.ShoppingCartId == cart.Id).ToList();
                 if (cartDetail.Count == 0)
                     throw new Exception("Cart is empty");
-                var order = new Models.Order
+                var order = new Order
                 {
                     UserId = userId,
                     CreateDate = DateTime.UtcNow,

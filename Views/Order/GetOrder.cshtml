@@ -1,10 +1,12 @@
 ﻿@model IEnumerable<Order>
 @{
+    ViewData["Title"] = "Order";
+    Layout = "~/Views/Shared/_LayoutOwner.cshtml";
 }
-<div style="width:100%" class="mt-2">
-    <a href="/Identity/Account/Manage" class="btn btn-primary my-2">Back</a>
 
-    <h4>My Orders</h4>
+<h1 class="card-title" style="text-align:center; font-size:30px">Order</h1>
+<div style="width:100%" class="mt-2">
+ 
     @if (Model != null && Model.Count() > 0)
     {
         <table class="table table-striped">

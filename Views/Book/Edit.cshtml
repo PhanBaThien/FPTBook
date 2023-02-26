@@ -5,49 +5,73 @@
     Layout = "~/Views/Shared/_LayoutOwner.cshtml";
 }
 
-<form asp-controller="Book" asp-action="Edit" asp-route-img="@Model.book_ImagURL" method="post" enctype="multipart/form-data">
 
+<div class="col-md-8 grid-margin stretch-card" style="margin-left:230px">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title" style="text-align:center">Edit Book</h3>
+            <form class="forms-sample" asp-controller="Book" asp-action="Edit" asp-route-img="@Model.book_ImagURL" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label>Book Title</label>
+                    <input type="text" class="form-control" asp-for="book_Title" placeholder="Category Name">
+                    <span asp-validation-for="book_Title"></span>
+                </div>
 
-    Title:
-    <input type="text" asp-for="book_Title" />
-    <span class="text-danger" asp-validation-for="book_Title"></span>
-    <br />
+                <div class="form-group">
+                    <label>Category</label>
+                    <div>
+                        <select asp-for="cate_Id" class="form-control" asp-items="ViewBag.cate_Id">
+                        </select>
+                        <span asp-validation-for="cate_Id" class="text-danger"></span>
+                    </div>
+                </div>
 
-    Category:
-    <div>
-        <select asp-for="cate_Id" asp-items="ViewBag.cate_Id">
-        </select>
-        <span asp-validation-for="cate_Id" class="text-danger"></span>
+                <div class="form-group">
+                    <label>Publication Date</label>
+                    <input type="date" asp-for="publication_date" class="form-control" />
+                    <span class="text-danger" asp-validation-for="publication_date"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Book Price</label>
+                    <input type="number" class="form-control" asp-for="book_Price" placeholder="Category Name">
+                    <span asp-validation-for="book_Price"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Book Quantity</label>
+                    <input type="number" class="form-control" asp-for="book_Quantity" placeholder="Category Name">
+                    <span asp-validation-for="book_Quantity"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Book Image</label>
+                    <img src="~/uploads/@Model.book_ImagURL" style="height:200px;width:250px" id="image"/>
+                    <input type="file" asp-for="book_Img" onchange="chooseFile(this)" accept="image/gif, image/jpeg, image/png" />
+                    <span asp-validation-for="book_Img" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Book Description</label>
+                    <input type="text" asp-for="book_Description" class="form-control" />
+                    <span class="text-danger" asp-validation-for="book_Description"></span>
+                </div>
+                <button type="submit" class="btn btn-gradient-primary me-2">Update</button>
+                <button class="btn btn-light" asp-action="Index">Back to List</button>
+            </form>
+        </div>
     </div>
-    <br />
+</div>
 
-    Publication Date:
-    <input type="date" asp-for="publication_date" />
-    <span class="text-danger" asp-validation-for="publication_date"></span>
-    <br />
+<script>
+    function chooseFile(fileInput) {
+        if (fileInput.files && fileInput.files[0]) {
+            var render = new FileReader();
 
-    Price:
-    <input type="text" asp-for="book_Price" />
-    <span class="text-danger" asp-validation-for="book_Price"></span>
-    <br />
-
-    Quantity:
-    <input type="text" asp-for="book_Quantity" />
-    <span class="text-danger" asp-validation-for="book_Quantity"></span>
-    <br />
-
-    Image:
-    <div class="form-group">
-        <input type="file" asp-for="book_Img" />
-        <img src="~/uploads/@Model.book_ImagURL" style="height:200px;width:250px" />
-        <span asp-validation-for="book_Img" class="text-danger"></span>
-    </div>
-
-    Description:
-    <input type="text" asp-for="book_Description" />
-    <span class="text-danger" asp-validation-for="book_Description"></span>
-    <br />
-
-    <input type="submit" value="Update" />
-
-</form>
+            render.onload = function (e) {
+                $('#image').attr('src', e.target.result);
+            }
+            render.readAsDataURL(fileInput.files[0]);
+        }
+    }
+</script>

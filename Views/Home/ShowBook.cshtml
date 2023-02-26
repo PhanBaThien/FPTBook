@@ -5,7 +5,7 @@
 <div class="my-2" style="margin-left: 750px">
     <form asp-action="Index" class="row col-12 align-items-center">
         <div class="col-4">
-            <label class="visually-hidden" for="genreId">Genres</label>
+            <label class="visually-hidden" for="genreId">Category</label>
             <select class="form-select" id="genreId" name="genreId">
                 <option selected>Catgory choose</option>
                 @foreach (var genre in Model.Categorys)
@@ -30,9 +30,11 @@
 </div>
 
 <div class="w-100 mt-4 d-flex flex-wrap ">
+    <div class="row">
     @foreach (var book in Model.Books)
     {
-        <div class="card mx-3 mb-4" style="width: 11rem;">
+            <div class="col-lg-3 ">
+            <div class="card mx-4 mb-2 " style="width: 16rem;">
             <a asp-controller="Home" asp-action="BookDetail" asp-route-cate="@book.category.cate_Name" asp-route-id="@book.book_Id">
             @if (string.IsNullOrEmpty(book.book_ImagURL))
             {
@@ -48,12 +50,23 @@
                 <h5 class="card-title">@book.book_Title</h5>
                 <p class="card-text">
                     <b>Category: </b>@book.category.cate_Name <br />
-                    <b>Price: </b>@book.book_Price
+                    <b>Price: </b>@book.book_Price<br />
+                    <b>Quantity: </b>@book.book_Quantity
                 </p>
-                <button type="button" onclick="add(@book.book_Id)" class="btn btn-primary">Add to cart</button>
+                        @if (book.book_Quantity == 0)
+                        {
+                            <button type="button" class="btn btn-secondary">Out Of Stock</button>
+                        }
+                        else
+                        {
+                            <button type="button" onclick="add(@book.book_Id)" class="btn btn-primary">Add to cart</button>
+                        }
+                        
             </div>
         </div>
+            </div>
     }
+    </div>
 </div>
 
 @section Scripts{

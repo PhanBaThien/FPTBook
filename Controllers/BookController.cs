@@ -168,6 +168,8 @@ namespace FPTBook_v3.Controllers
                                                  book_Title = book.book_Title,
                                                  cate_Id = book.cate_Id,
                                                  book_Price = book.book_Price,
+                                                 book_Quantity = book.book_Quantity,
+                                                 publication_date = book.publication_date,
                                                  book_Description = book.book_Description
                                              }
                          ).ToListAsync();

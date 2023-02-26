@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using System.IO;
 
 namespace FPTBook_v3.Controllers
 {
@@ -57,14 +58,17 @@ namespace FPTBook_v3.Controllers
             }
 
         }
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index(string sterm = "", int genreId = 0)
         {
-            return View();
+            IEnumerable<Book> books = await GetBooks(sterm, genreId);
+            IEnumerable<Category> categorys = await _db.Categorys.ToListAsync(); ;
+            Models.BookDisplayModel bookModel = new Models.BookDisplayModel
+            {
+                Books = books,
+                Categorys = categorys,
+            };
+            return View(bookModel);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -93,6 +97,7 @@ namespace FPTBook_v3.Controllers
                                                  category = book.category,
                                                  book_Title = book.book_Title,
                                                  cate_Id = book.cate_Id,
+                                                 book_Quantity = book.book_Quantity,
                                                  book_Price = book.book_Price,
                                                  book_Description = book.book_Description
                                              }

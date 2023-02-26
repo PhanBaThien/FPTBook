@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Uploads\\26cf62c3-4604-4704-855e-aaeb20ed6800.jpg"
     },
     {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\346958e6-dc93-4c66-badd-183e064899f6289051010_450435450162654_3161096143541211625_n.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\346958e6-dc93-4c66-badd-183e064899f6289051010_450435450162654_3161096143541211625_n.jpg"
+    },
+    {
       "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\48cb5b1e-a5e1-4cf8-9258-91b8e5c5b47c.jpg",
       "PackagePath": "staticwebassets\\Uploads\\48cb5b1e-a5e1-4cf8-9258-91b8e5c5b47c.jpg"
     },
@@ -59,6 +63,10 @@
     {
       "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\images\\NoImage.png",
       "PackagePath": "staticwebassets\\images\\NoImage.png"
+    },
+    {
+      "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\images\\ny.jpg",
+      "PackagePath": "staticwebassets\\images\\ny.jpg"
     },
     {
       "Id": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\js\\site.js",
