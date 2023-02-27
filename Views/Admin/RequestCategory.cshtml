@@ -35,8 +35,8 @@
                             @item.cate_Description
                         </td>
                         <td>
-                            <a asp-controller="Admin" asp-action="Approval" asp-route-id="@item.cate_Id">Approval</a>
-                            <a asp-controller="Admin" asp-action="Reject" asp-route-id="@item.cate_Id" onclick="return confirm ('Are you sure?')">Reject</a>
+                            <a class="btn btn-primary" asp-controller="Admin" asp-action="Approval" asp-route-id="@item.cate_Id">Approval</a>
+                            <a class="btn btn-danger" asp-controller="Admin" asp-action="Reject" asp-route-id="@item.cate_Id" onclick="return confirm ('Are you sure?')">Reject</a>
                         </td>
                     </tr>
                 }

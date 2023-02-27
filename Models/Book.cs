@@ -9,11 +9,17 @@ namespace FPTBook_v3.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int book_Id { get; set; }
+        [Required]
         public string book_Title { get; set; }
+        [Required]
         public DateTime publication_date { get; set; }
+        [Required]
         public string? book_ImagURL { get; set; }
+        [Required]
         public string book_Description { get; set; }
+        [Required]
         public double book_Price { get; set; }
+        [Required]
         public int book_Quantity { get; set; }
         public int cate_Id { get; set; }
 

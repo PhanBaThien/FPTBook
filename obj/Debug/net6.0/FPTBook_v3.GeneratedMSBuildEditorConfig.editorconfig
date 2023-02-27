@@ -180,6 +180,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdE93bmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/FPTBook_v3/FPTBook_v3/Views/Admin/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/FPTBook_v3/FPTBook_v3/Views/Admin/RegisterOwner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVnaXN0ZXJPd25lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

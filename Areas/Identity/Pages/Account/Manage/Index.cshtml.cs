@@ -135,7 +135,15 @@ namespace FPTBook_v3.Areas.Identity.Pages.Account.Manage
                     var oldImage = user.User_Img;
                     user.User_Img = result.Item2;
                     await _userManager.UpdateAsync(user);
-                    var delete = _fileService.Delete(oldImage);
+                    if (oldImage == null)
+                    {
+
+                    }
+                    else
+                    {
+                        var delete = _fileService.Delete(oldImage);
+                    }
+                   
                 }
             }
             await _signInManager.RefreshSignInAsync(user);

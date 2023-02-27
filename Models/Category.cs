@@ -13,7 +13,8 @@ namespace FPTBook_v3.Models
             public string cate_Name { get; set; }
             [Required]
             public string cate_Description { get; set; }
-            public string? cate_Status { get; set; }
+        [Required]
+        public string? cate_Status { get; set; }
 
             public virtual ICollection<Book>? Books { get; set; }
      }

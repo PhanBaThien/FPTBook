@@ -8,8 +8,8 @@ namespace FPTBook_v3.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
         public string UserId { get; set; }
+        [Required, Display(Name = "Create Date")]
         public DateTime CreateDate { get; set; } = DateTime.UtcNow;
 
         public List<OrderDetail> OrderDetail { get; set; }

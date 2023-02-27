@@ -32,11 +32,6 @@ namespace FPTBook_v3.Controllers
         {
             var cartCount = await AddItemCart(bookId, qty);
 
-            var quantity = _db.Books.FirstOrDefault(a => a.book_Id == bookId);
-            quantity.book_Quantity--;
-            _db.Update(quantity);
-            _db.SaveChanges();
-
             if (redirect == 0)
                 return Ok(cartCount);
             return RedirectToAction("GetUserCart");
@@ -46,10 +41,6 @@ namespace FPTBook_v3.Controllers
         public async Task<IActionResult> RemoveItem(int bookId)
         {
             var cartCount = await RemoveCartItem(bookId);
-            var quantity = _db.Books.FirstOrDefault(a => a.book_Id == bookId);
-            quantity.book_Quantity++;
-            _db.Update(quantity);
-            _db.SaveChanges();
             return RedirectToAction("GetUserCart");
         }
 
@@ -80,7 +71,6 @@ namespace FPTBook_v3.Controllers
         public async Task<int> AddItemCart(int bookId, int qty)
         {
             string userId = GetUserId();
-            using var transaction = _db.Database.BeginTransaction();
             try
             {
                 if (string.IsNullOrEmpty(userId))
@@ -95,28 +85,31 @@ namespace FPTBook_v3.Controllers
                     _db.ShoppingCarts.Add(cart);
                 }
                 _db.SaveChanges();
-                // cart detail section
+
                 var cartItem = _db.CartDetails
                                   .FirstOrDefault(a => a.ShoppingCartId == cart.Id && a.BookId == bookId);
                 if (cartItem is not null)
                 {
-                    
-                    cartItem.Quantity += qty;
+                        _db.SaveChanges();
+                        cartItem.Quantity += qty;   
                 }
                 else
                 {
-                    var book = _db.Books.Find(bookId);
-                    cartItem = new CartDetail
-                    {
-                        BookId = bookId,
-                        ShoppingCartId = cart.Id,
-                        Quantity = qty,
-                        UnitPrice = book.book_Price  // it is a new line after update
-                    };
-                    _db.CartDetails.Add(cartItem);
+                  
+                        var book = _db.Books.Find(bookId);
+                        cartItem = new CartDetail
+                        {
+                            BookId = bookId,
+                            ShoppingCartId = cart.Id,
+                            Quantity = qty,
+                            UnitPrice = book.book_Price  // it is a new line after update
+
+
+                        };
+                        _db.CartDetails.Add(cartItem);
+                        
                 }
                 _db.SaveChanges();
-                transaction.Commit();
             }
             catch (Exception ex)
             {
@@ -191,7 +184,6 @@ namespace FPTBook_v3.Controllers
 
         public async Task<bool> DoCheckout()
         {
-            using var transaction = _db.Database.BeginTransaction();
             try
             {
                 // logic
@@ -215,6 +207,7 @@ namespace FPTBook_v3.Controllers
                 _db.SaveChanges();
                 foreach (var item in cartDetail)
                 {
+
                     var orderDetail = new OrderDetail
                     {
                         BookId = item.BookId,
@@ -223,13 +216,24 @@ namespace FPTBook_v3.Controllers
                         UnitPrice = item.UnitPrice
                     };
                     _db.OrderDetails.Add(orderDetail);
+
+                    var quantity = _db.Books.FirstOrDefault(a => a.book_Id == item.BookId);
+                    if (quantity.book_Quantity == 0)
+                    {
+                    }
+                    else
+                    {
+                        quantity.book_Quantity = quantity.book_Quantity - item.Quantity;
+                        _db.Update(quantity);
+                        _db.SaveChanges();
+                    }
                 }
                 _db.SaveChanges();
+
 
                 // removing the cartdetails
                 _db.CartDetails.RemoveRange(cartDetail);
                 _db.SaveChanges();
-                transaction.Commit();
                 return true;
             }
             catch (Exception)

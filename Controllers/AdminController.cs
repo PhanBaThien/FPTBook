@@ -49,7 +49,7 @@ namespace FPTBook_v3.Controllers
             return View(owner);
         }
 
-        [Route("Admin/ShowOwner/EditOwner/{:id}")]
+        [Route("Admin/ShowOwner/EditOwner/{id:}")]
         public IActionResult EditOwner(string id)
         {
             var user = _db.Users.Find(id);
@@ -62,6 +62,7 @@ namespace FPTBook_v3.Controllers
         }
 
         [HttpPost]
+        [Route("Admin/ShowOwner/EditOwner/{id:}")]
         public async Task<IActionResult> EditOwner(string ownerid, ChangePassword model)
         {
             if (ModelState.IsValid)
@@ -78,7 +79,7 @@ namespace FPTBook_v3.Controllers
             
         }
 
-        [Route("Admin/ShowOwner/EditUser/{:id}")]
+        [Route("Admin/ShowOwner/EditUser/{id:}")]
         public IActionResult EditUser(string id)
         {
             var user = _db.Users.Find(id);
@@ -90,12 +91,14 @@ namespace FPTBook_v3.Controllers
             return View();
         }
 
+
         [HttpPost]
-        public async Task<IActionResult> EditUser(string ownerid, ChangePassword model)
+        [Route("Admin/ShowOwner/EditUser/{id:}")]
+        public async Task<IActionResult> EditUser(string userid, ChangePassword model)
         {
             if (ModelState.IsValid)
             {
-                var user = await _userManager.FindByIdAsync(ownerid);
+                var user = await _userManager.FindByIdAsync(userid);
                 await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
 
                 return RedirectToAction("ShowUser");
@@ -176,10 +179,10 @@ namespace FPTBook_v3.Controllers
                 }
                 else
                 {
-                    return RedirectToAction("Register");
+                    return RedirectToAction("RegisterOwner");
                 }
             }
-            return RedirectToAction("ShowOwner");
+            return RedirectToAction("RegisterOwner");
         }
     }
 }

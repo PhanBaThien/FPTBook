@@ -27,7 +27,7 @@ namespace FPTBook_v3.Controllers
         {
 
             IEnumerable<Book> books = await GetBooks(sterm, genreId);
-            IEnumerable<Category> categorys = await _db.Categorys.ToListAsync(); ;
+            IEnumerable<Category> categorys = await _db.Categorys.Where(x => x.cate_Status == "processed").ToListAsync(); ;
             Models.BookDisplayModel bookModel = new Models.BookDisplayModel
             {
                 Books = books,
@@ -61,8 +61,8 @@ namespace FPTBook_v3.Controllers
 
         public async Task<IActionResult> Index(string sterm = "", int genreId = 0)
         {
-            IEnumerable<Book> books = await GetBooks(sterm, genreId);
-            IEnumerable<Category> categorys = await _db.Categorys.ToListAsync(); ;
+            IEnumerable<Book> books = await GetBooks1(sterm, genreId);
+            IEnumerable<Category> categorys = await _db.Categorys.Where(x => x.cate_Status == "processed").ToListAsync(); ;
             Models.BookDisplayModel bookModel = new Models.BookDisplayModel
             {
                 Books = books,
@@ -83,25 +83,14 @@ namespace FPTBook_v3.Controllers
         }
 
 
-        public async Task<IEnumerable<Book>> GetBooks(string sTerm = "", int genreId = 0)
+        public async Task<IEnumerable<Book>> GetBooks1(string sTerm = "", int genreId = 0)
         {
             
             IEnumerable<Book> books = await (from book in _db.Books
                                              join genre in _db.Categorys
                                              on book.cate_Id equals genre.cate_Id
                                              where string.IsNullOrWhiteSpace(sTerm) || (book != null && book.book_Title.ToLower().StartsWith(sTerm))
-                                             select new Book
-                                             {
-                                                 book_Id = book.book_Id,
-                                                 book_ImagURL = book.book_ImagURL,
-                                                 category = book.category,
-                                                 book_Title = book.book_Title,
-                                                 cate_Id = book.cate_Id,
-                                                 book_Quantity = book.book_Quantity,
-                                                 book_Price = book.book_Price,
-                                                 book_Description = book.book_Description
-                                             }
-                         ).ToListAsync();
+                                             select book).OrderByDescending(b => b.book_Price).Take(4).ToListAsync();
 
             if (genreId != 0 && sTerm != null)
             {
@@ -109,7 +98,39 @@ namespace FPTBook_v3.Controllers
                 books = await (from book in _db.Books
                                    join genre in _db.Categorys
                                    on book.cate_Id equals genre.cate_Id
-                                   where genre.cate_Id == genreId && (book != null && book.book_Title.ToLower().StartsWith(sTerm))
+                                   where genre.cate_Id == genreId && book.book_Title == sTerm
+                               select book).ToListAsync();
+                /*books = books.Where(a => a.book_Id == genreId).ToList();*/
+            }
+            else if (genreId != 0 && sTerm == null)
+            {
+                books = await (from book in _db.Books
+                               join genre in _db.Categorys
+                               on book.cate_Id equals genre.cate_Id
+                               where genre.cate_Id == genreId
+                               select book).ToListAsync();
+            }
+            return books;
+
+        }
+
+
+        public async Task<IEnumerable<Book>> GetBooks(string sTerm = "", int genreId = 0)
+        {
+
+            IEnumerable<Book> books = await (from book in _db.Books
+                                             join genre in _db.Categorys
+                                             on book.cate_Id equals genre.cate_Id
+                                             where string.IsNullOrWhiteSpace(sTerm) || (book != null && book.book_Title.ToLower().StartsWith(sTerm))
+                                             select book).ToListAsync();
+
+            if (genreId != 0 && sTerm != null)
+            {
+
+                books = await (from book in _db.Books
+                               join genre in _db.Categorys
+                               on book.cate_Id equals genre.cate_Id
+                               where genre.cate_Id == genreId && book.book_Title == sTerm
                                select book).ToListAsync();
                 /*books = books.Where(a => a.book_Id == genreId).ToList();*/
             }

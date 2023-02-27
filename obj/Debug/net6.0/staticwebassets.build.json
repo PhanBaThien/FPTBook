@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GeatCGSzAuK8j/IkjXIV3E3XjXjpq5dFyOjiIzsUUzg=",
+  "Hash": "RlViwCHxqOkUGlJ7wxenux7q1waw0uKXxOmI6qNRWFQ=",
   "Source": "FPTBook_v3",
   "BasePath": "_content/FPTBook_v3",
   "Mode": "Default",
@@ -6052,6 +6052,23 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\1262b546-e3c9-4023-ae8f-452b7c9990a0z3867638069899_f3c53f860086cbcba9a8a90bfe55d117.jpg"
     },
     {
+      "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\19ba22f7-4ddd-4c67-951b-25b68e9ba16b185a34e7f28507beebc6e3ea187b6ee7_7313388043272069085.jpg",
+      "SourceId": "FPTBook_v3",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\",
+      "BasePath": "_content/FPTBook_v3",
+      "RelativePath": "Uploads/19ba22f7-4ddd-4c67-951b-25b68e9ba16b185a34e7f28507beebc6e3ea187b6ee7_7313388043272069085.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\19ba22f7-4ddd-4c67-951b-25b68e9ba16b185a34e7f28507beebc6e3ea187b6ee7_7313388043272069085.jpg"
+    },
+    {
       "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\26cf62c3-4604-4704-855e-aaeb20ed6800.jpg",
       "SourceId": "FPTBook_v3",
       "SourceType": "Discovered",
@@ -6137,6 +6154,23 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\5481ebe6-d34c-4492-bb41-d404b2f5c829324501502_1214163559456348_8040020440146947264_n.jpg"
     },
     {
+      "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\56752d3b-c79c-44aa-8f62-74e69082ef16.jpg",
+      "SourceId": "FPTBook_v3",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\",
+      "BasePath": "_content/FPTBook_v3",
+      "RelativePath": "Uploads/56752d3b-c79c-44aa-8f62-74e69082ef16.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\56752d3b-c79c-44aa-8f62-74e69082ef16.jpg"
+    },
+    {
       "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\719f4697-896b-4ba7-bf0e-e095d2d52eba316218277_676310224151686_7001944770444788992_n.jpg",
       "SourceId": "FPTBook_v3",
       "SourceType": "Discovered",
@@ -6188,12 +6222,12 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\9fe3fcbf-c154-403e-bb06-5e2352458a0f.jpg"
     },
     {
-      "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\d2c10a32-263b-4f0c-b494-bd2c0a7cf000b443ef44e73727697e26.jpg",
+      "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\bda9a0cc-1893-4e5e-b549-7bf108e3ac0b.jpg",
       "SourceId": "FPTBook_v3",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\",
       "BasePath": "_content/FPTBook_v3",
-      "RelativePath": "Uploads/d2c10a32-263b-4f0c-b494-bd2c0a7cf000b443ef44e73727697e26.jpg",
+      "RelativePath": "Uploads/bda9a0cc-1893-4e5e-b549-7bf108e3ac0b.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -6202,7 +6236,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\d2c10a32-263b-4f0c-b494-bd2c0a7cf000b443ef44e73727697e26.jpg"
+      "OriginalItemSpec": "wwwroot\\Uploads\\bda9a0cc-1893-4e5e-b549-7bf108e3ac0b.jpg"
     },
     {
       "Identity": "D:\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\f1b3158d-f0f3-41be-88cc-24ea0caeacbd327799681_492778066394684_2281040845599201422_n.jpg",
