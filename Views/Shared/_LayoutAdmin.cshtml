@@ -77,6 +77,14 @@
                     </li>
                     
                     <li class="nav-item">
+                        <a class="nav-link" asp-controller="Admin" asp-action="RequestCategory">
+                            <span class="menu-title">Request Category</span>
+                            <i class="mdi mdi-contacts menu-icon"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
                         <a class="nav-link"asp-controller="Admin" asp-action="ShowUser">
                             <span class="menu-title">Manage User</span>
                             <i class="mdi mdi-contacts menu-icon"></i>
@@ -90,11 +98,11 @@
                         </a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Admin" asp-action="RequestCategory">
-                            <span class="menu-title">Request Category</span>
-                            <i class="mdi mdi-contacts menu-icon"></i>
-                        </a>
+                    
+                    <li class="nav-item" style="margin-top:350px">
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                            <button type="submit" class="nav-link btn btn-primary text-dark">Logout</button>
+                        </form>
                     </li>
                     
                 </ul>

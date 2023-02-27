@@ -1,32 +1,47 @@
 ﻿@model IEnumerable<Category>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.cate_Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.cate_Description)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.cate_Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.cate_Description)
-                </td>
-                <td>
-                    <a asp-controller="Admin" asp-action="Approval" asp-route-id="@item.cate_Id">Approval</a>
-                    <a asp-controller="Admin" asp-action="Reject" asp-route-id="@item.cate_Id" onclick="return confirm ('Are you sure?')">Reject</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<div class="card">
+    <div class="card-body">
+        <h1 class="card-title" style="text-align:center; font-size:30px">Category</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Category Name
+                    </th>
+                    <th>
+                        Category Description
+                    </th>
+
+                    <th>
+
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.cate_Name
+                        </td>
+                        <td>
+                            @item.cate_Description
+                        </td>
+                        <td>
+                            <a asp-controller="Admin" asp-action="Approval" asp-route-id="@item.cate_Id">Approval</a>
+                            <a asp-controller="Admin" asp-action="Reject" asp-route-id="@item.cate_Id" onclick="return confirm ('Are you sure?')">Reject</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

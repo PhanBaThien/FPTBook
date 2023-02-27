@@ -132,7 +132,7 @@ namespace FPTBook_v3.Areas.Identity.Pages.Account
                     }
                     else if (roles.Contains("Admin"))
                     {
-                        return Redirect("~/Admin/Index");
+                        return Redirect("~/Admin/RequestCategory");
                     }
                     return LocalRedirect(returnUrl);
 
