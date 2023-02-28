@@ -34,13 +34,13 @@
 
                 <div class="form-group">
                     <label>Book Price</label>
-                    <input type="number" class="form-control" asp-for="book_Price" placeholder="Category Name">
+                    <input type="number" class="form-control" asp-for="book_Price" placeholder="Category Price">
                     <span asp-validation-for="book_Price"></span>
                 </div>
 
                 <div class="form-group">
                     <label>Book Quantity</label>
-                    <input type="number" class="form-control" asp-for="book_Quantity" placeholder="Category Name">
+                    <input type="number" class="form-control" asp-for="book_Quantity" placeholder="Category Quantity">
                     <span asp-validation-for="book_Quantity"></span>
                 </div>
 
@@ -57,7 +57,7 @@
                     <span class="text-danger" asp-validation-for="book_Description"></span>
                 </div>
                 <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
-                <button class="btn btn-light" asp-action="Index">Back to List</button>
+                <a class="btn btn-light" asp-action="Index">Back to List</a>
             </form>
         </div>
     </div>
@@ -75,3 +75,8 @@
         }
     }
 </script>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -63,8 +63,17 @@ namespace FPTBook_v3.Controllers
         {
             bool isCheckedOut = await DoCheckout();
             if (!isCheckedOut)
-                throw new Exception("Something happen in server side");
-            return RedirectToAction("Index", "Home");
+            {
+                TempData["Quantity"] = "The number of products is not enough!";
+                return Redirect("~/User/Cart/GetUserCart");
+            }
+            else
+            {
+                TempData["Success"] = "Order Success";
+                return Redirect("~/User/Cart/GetUserCart");
+            }
+                
+            
         }
 
 
@@ -217,23 +226,34 @@ namespace FPTBook_v3.Controllers
                     };
                     _db.OrderDetails.Add(orderDetail);
 
+
                     var quantity = _db.Books.FirstOrDefault(a => a.book_Id == item.BookId);
                     if (quantity.book_Quantity == 0)
                     {
+
                     }
                     else
                     {
-                        quantity.book_Quantity = quantity.book_Quantity - item.Quantity;
-                        _db.Update(quantity);
-                        _db.SaveChanges();
+                        if (quantity.book_Quantity < item.Quantity)
+                        {
+
+                            return false;
+                        }
+                        else
+                        {
+                            quantity.book_Quantity = quantity.book_Quantity - item.Quantity;
+                            _db.Update(quantity);
+                            _db.SaveChanges();
+
+                            // removing the cartdetails
+                            _db.CartDetails.RemoveRange(cartDetail);
+                            _db.SaveChanges();
+                        }
+                        
                     }
                 }
                 _db.SaveChanges();
 
-
-                // removing the cartdetails
-                _db.CartDetails.RemoveRange(cartDetail);
-                _db.SaveChanges();
                 return true;
             }
             catch (Exception)

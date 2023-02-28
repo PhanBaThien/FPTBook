@@ -46,12 +46,30 @@
                 {
                     <tr>
                         <td>@book.book_Title</td>
-                        <td> <img src="~/uploads/@book.book_ImagURL" width="100px" height="150px"></td>
+                        <td>
+                            @if (book.book_ImagURL == null)
+                            {
+                                <img src="~/images/NoImage.png" width="100px" height="150px">
+
+                            }else
+                            {
+                                <img src="~/uploads/@book.book_ImagURL" width="100px" height="150px">
+                            }
+                        </td>
                         <td>@book.book_Price</td>
                         <td>@book.category.cate_Name</td>
                         <td>@book.book_Quantity</td>
                         <td>@book.publication_date.ToString("dd/MM/yyyy")</td>
-                        <td>@book.book_Description</td>
+                        <td style="width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;">
+                            @book.book_Description
+                        </td>
 
 
                         <td>
@@ -66,3 +84,6 @@
     </div>
 </div>
 
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

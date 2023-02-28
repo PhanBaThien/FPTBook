@@ -29,7 +29,7 @@ namespace FPTBook_v3.Data
             var userInDb = await userManager.FindByEmailAsync(user.Email);
             if (userInDb == null)
             {
-                await userManager.CreateAsync(user);
+                await userManager.CreateAsync(user, "User@123");
                 await userManager.AddToRoleAsync(user, Role.User.ToString());
             }
 
@@ -44,7 +44,7 @@ namespace FPTBook_v3.Data
             var ownerInDb = await userManager.FindByEmailAsync(owner.Email);
             if (userInDb == null)
             {
-                await userManager.CreateAsync(owner);
+                await userManager.CreateAsync(owner, "Owner@123");
                 await userManager.AddToRoleAsync(owner, Role.Owner.ToString());
             }
 
@@ -59,7 +59,7 @@ namespace FPTBook_v3.Data
             var adminInDb = await userManager.FindByEmailAsync(admin.Email);
             if (userInDb == null)
             {
-                await userManager.CreateAsync(admin);
+                await userManager.CreateAsync(admin, "Admin@123");
                 await userManager.AddToRoleAsync(admin, Role.Admin.ToString());
             }
         }

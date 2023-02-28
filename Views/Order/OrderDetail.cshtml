@@ -1,6 +1,5 @@
 ﻿@model IEnumerable<Order>
-@{
-}
+
 <div style="width:100%" class="mt-2">
     <a href="/Identity/Account/Manage" class="btn btn-primary my-2">Back</a>
 
@@ -75,3 +74,6 @@
 
 
 
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

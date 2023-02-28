@@ -3,6 +3,25 @@
     ViewData["Title"] = "GetUserCart";
 }
 
+@if (TempData["Quantity"] != null)
+{
+    <div class="alert alert-danger">
+        <strong>
+            Fail
+        </strong>@TempData["Quantity"]
+    </div>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        <strong>
+            Success
+        </strong>@TempData["Success"]
+    </div>
+}
+<br/>
+
 <div style="width:90%;margin:auto" class="mt-2">
     @if (Model != null && Model.CartDetails != null && Model.CartDetails.Count > 0)
     {
@@ -58,3 +77,8 @@
     }
 </div>
 
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

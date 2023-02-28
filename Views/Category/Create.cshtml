@@ -20,10 +20,14 @@
                 </div>
                
                 <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
-                <button class="btn btn-light" asp-action="Index">Back to List</button>
+                <a class="btn btn-light" asp-controller="Category" asp-action="Index">Back to List</a>
             </form>
         </div>
     </div>
 </div>
 
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
 

@@ -13,7 +13,6 @@ namespace FPTBook_v3.Models
         public string book_Title { get; set; }
         [Required]
         public DateTime publication_date { get; set; }
-        [Required]
         public string? book_ImagURL { get; set; }
         [Required]
         public string book_Description { get; set; }
@@ -30,6 +29,7 @@ namespace FPTBook_v3.Models
 
 
         [NotMapped]
+        [Required]
         public IFormFile? book_Img { get; set; }
     }
 }

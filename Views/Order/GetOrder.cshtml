@@ -17,7 +17,8 @@
                 @if (order.OrderDetail != null && order.OrderDetail.Count > 0)
                 {
                     <tr>
-                        <td>User: @order.ApplicationUsers.User_Name <br/>
+                        <td>User Name: @order.ApplicationUsers.User_Name <br/>
+                            User Email: @order.ApplicationUsers.Email <br/>
                             Order:@order.CreateDate.ToString("dd-MM-yyyy")
                         </td>
                     </tr>
@@ -75,5 +76,7 @@
 </div>
 
 
-
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
 

@@ -66,6 +66,7 @@ namespace FPTBook_v3.Models
             if (ModelState.IsValid)
             {
                 category.cate_Id = id;
+                category.cate_Status = "processed";
                 _db.Categorys.Update(category);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
