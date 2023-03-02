@@ -51,7 +51,7 @@ namespace FPTBook_v3.Controllers
             return View(cart);
         }
 
-
+        [Route("User/Cart/GetTotalItemInCart")]
         public async Task<IActionResult> GetTotalItemInCart()
         {
             int cartItem = await GetCartItemCount();
@@ -61,7 +61,7 @@ namespace FPTBook_v3.Controllers
         [Route("User/Cart/Checkout")]
         public async Task<IActionResult> Checkout()
         {
-            bool isCheckedOut = await DoCheckout();
+            var isCheckedOut = await DoCheckout();
             if (!isCheckedOut)
             {
                 TempData["Quantity"] = "The number of products is not enough!";
@@ -228,12 +228,7 @@ namespace FPTBook_v3.Controllers
 
 
                     var quantity = _db.Books.FirstOrDefault(a => a.book_Id == item.BookId);
-                    if (quantity.book_Quantity == 0)
-                    {
-
-                    }
-                    else
-                    {
+                    
                         if (quantity.book_Quantity < item.Quantity)
                         {
 
@@ -243,15 +238,12 @@ namespace FPTBook_v3.Controllers
                         {
                             quantity.book_Quantity = quantity.book_Quantity - item.Quantity;
                             _db.Update(quantity);
-                            _db.SaveChanges();
-
-                            // removing the cartdetails
-                            _db.CartDetails.RemoveRange(cartDetail);
-                            _db.SaveChanges();
+                            _db.SaveChanges();  
+                            
                         }
-                        
-                    }
+                              
                 }
+                _db.CartDetails.RemoveRange(cartDetail);
                 _db.SaveChanges();
 
                 return true;

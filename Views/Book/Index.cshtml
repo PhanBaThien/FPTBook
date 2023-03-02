@@ -45,7 +45,16 @@
                 @foreach (var book in Model.Books)
                 {
                     <tr>
-                        <td>@book.book_Title</td>
+                        <td style="width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;">
+                            @book.book_Title
+                        </td>
                         <td>
                             @if (book.book_ImagURL == null)
                             {
@@ -60,7 +69,7 @@
                         <td>@book.category.cate_Name</td>
                         <td>@book.book_Quantity</td>
                         <td>@book.publication_date.ToString("dd/MM/yyyy")</td>
-                        <td style="width: 400px;
+                        <td style="width: 300px;
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 25px;

@@ -29,7 +29,6 @@ namespace FPTBook_v3.Models
 
 
         [NotMapped]
-        [Required]
         public IFormFile? book_Img { get; set; }
     }
 }

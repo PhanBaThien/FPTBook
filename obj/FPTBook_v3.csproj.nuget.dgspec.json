@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj": {}
+    "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj": {}
   },
   "projects": {
-    "D:\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj": {
+    "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj",
+        "projectUniqueName": "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj",
         "projectName": "FPTBook_v3",
-        "projectPath": "D:\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj",
+        "projectPath": "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\FPTBook_v3\\FPTBook_v3\\obj\\",
+        "outputPath": "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

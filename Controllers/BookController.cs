@@ -76,19 +76,29 @@ namespace FPTBook_v3.Controllers
             book.book_Id = id;
             if (ModelState.IsValid)
             {
-                string uniqueFileName = UploadFile(book);
-                book.book_ImagURL = uniqueFileName;
-
-                _db.Books.Update(book);
-                _db.SaveChanges();
-
-                img = Path.Combine("wwwroot", "uploads", img);
-                FileInfo infor = new FileInfo(img);
-                if (infor != null)
+                if (book.book_Img == null)
                 {
-                    System.IO.File.Delete(img);
-                    infor.Delete();
+                    book.book_ImagURL = img;
+                    _db.Books.Update(book);
+                    _db.SaveChanges();
                 }
+                else
+                {
+                    string uniqueFileName = UploadFile(book);
+                    book.book_ImagURL = uniqueFileName;
+
+                    _db.Books.Update(book);
+                    _db.SaveChanges();
+
+                    img = Path.Combine("wwwroot", "uploads", img);
+                    FileInfo infor = new FileInfo(img);
+                    if (infor != null)
+                    {
+                        System.IO.File.Delete(img);
+                        infor.Delete();
+                    }
+                }
+                
 
                 return RedirectToAction("Index");
             }

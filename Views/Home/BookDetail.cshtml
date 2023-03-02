@@ -8,7 +8,6 @@
 <h1>BookDetail</h1>
 
 <div>
-    <h4>Book</h4>
     <hr />
     <dl class="row">
         <dd class="col-sm-2">
@@ -50,7 +49,14 @@
     </dl>
 </div>
 <div>
-    <a onclick="add(@Model.book_Id)" class="btn btn-primary">Add To Cart</a>
+    @if (@Model.book_Quantity == 0)
+    {
+        <button type="button" class="btn btn-secondary">Out Of Stock</button>
+    }
+    else
+    {
+        <a type="button" onclick="add(@Model.book_Id)" class="btn btn-primary">Add to cart</a>
+    }
     <a asp-action="ShowBook" class="btn btn-primary">Back to List</a>
 </div>
 
@@ -66,12 +72,12 @@
                 //  }
             }
             try {
-                var response = await fetch(`/Cart/AddItem?bookId=${bookId}`);
+                var response = await fetch(`/User/Cart/AddItem?bookId=${bookId}`);
                 if (response.status == 200) {
                     var result = await response.json();
                     var cartCountEl = document.getElementById("cartCount");
                     cartCountEl.innerHTML = result;
-                    window.location.href = "/Cart/GetUserCart";
+                    window.location.href = "/User/Cart/GetUserCart";
                 }
             }
             catch (err) {

@@ -4,6 +4,15 @@
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
+@if (TempData["Password"] != null)
+{
+    <div class="alert alert-danger">
+        <strong>
+            Fail
+        </strong>@TempData["Password"]
+    </div>
+}
+<br />
 
 <div class="col-md-8 grid-margin stretch-card" style="margin-left:230px">
     <div class="card">

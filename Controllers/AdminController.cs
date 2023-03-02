@@ -1,5 +1,6 @@
 ﻿using FPTBook_v3.Constants;
 using FPTBook_v3.Models;
+using FPTBook_v3.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -12,11 +13,14 @@ namespace FPTBook_v3.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ApplicationDbContext _db;
+        private readonly IFileService _fileService;
         public AdminController(ApplicationDbContext db,
-            UserManager<ApplicationUser> userManager)
+            UserManager<ApplicationUser> userManager,
+            IFileService fileService)
         {
             _db = db;
             _userManager = userManager;
+            _fileService = fileService;
         }
         public IActionResult Index()
         {
@@ -68,7 +72,12 @@ namespace FPTBook_v3.Controllers
             if (ModelState.IsValid)
             {
                 var owner = await _userManager.FindByIdAsync(ownerid);
-                await _userManager.ChangePasswordAsync(owner, model.CurrentPassword, model.NewPassword);
+                var result = await _userManager.ChangePasswordAsync(owner, model.CurrentPassword, model.NewPassword);
+                if (!result.Succeeded)
+                {
+                    TempData["Password"] = "Invalid password!";
+                    return View(model);
+                }
 
                 return RedirectToAction("ShowOwner");
             }
@@ -99,9 +108,15 @@ namespace FPTBook_v3.Controllers
             if (ModelState.IsValid)
             {
                 var user = await _userManager.FindByIdAsync(userid);
-                await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+                var result = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
 
+                if (!result.Succeeded)
+                {
+                    TempData["Password"] = "Invalid password!";
+                    return View(model);
+                }
                 return RedirectToAction("ShowUser");
+
             }
             else
             {
@@ -170,15 +185,41 @@ namespace FPTBook_v3.Controllers
                     UserName = owners.Email,
                     User_Name = owners.Name,
                     Email = owners.Email,
+                    PhoneNumber = owners.Phone,
+                    
 
                 };
+
+                if (owners.Img != null)
+                {
+                    var resultt = _fileService.SaveImage(owners.Img);
+                    if (resultt.Item1 == 1)
+                    {
+                        var oldImage = owner.User_Img;
+                        owner.User_Img = resultt.Item2;
+
+                        
+                        if (oldImage == null)
+                        {
+
+                        }
+                        else
+                        {
+                            var delete = _fileService.Delete(oldImage);
+                        }
+
+                    }
+                }
+
                 var result = await _userManager.CreateAsync(owner, owners.Password);
                 if (result.Succeeded)
                 {
                     await _userManager.AddToRoleAsync(owner, Role.Owner.ToString());
+                    return RedirectToAction("ShowOwner");
                 }
                 else
                 {
+                    TempData["Fail"] = "RegisterOwner Fail!";
                     return RedirectToAction("RegisterOwner");
                 }
             }

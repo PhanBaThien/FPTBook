@@ -13,7 +13,7 @@
             <form class="forms-sample" asp-controller="Book" asp-action="Create" method="post" enctype="multipart/form-data">
                 <div class="form-group">
                     <label>Book Title</label>
-                    <input type="text" class="form-control" asp-for="book_Title" placeholder="Category Name">
+                    <input type="text" class="form-control" asp-for="book_Title" placeholder="Book Title">
                     <span asp-validation-for="book_Title"></span>
                 </div>
 
@@ -34,20 +34,22 @@
 
                 <div class="form-group">
                     <label>Book Price</label>
-                    <input type="number" class="form-control" asp-for="book_Price" placeholder="Category Price">
+                    <input type="number" class="form-control" asp-for="book_Price" placeholder="Book Price">
                     <span asp-validation-for="book_Price"></span>
                 </div>
 
                 <div class="form-group">
                     <label>Book Quantity</label>
-                    <input type="number" class="form-control" asp-for="book_Quantity" placeholder="Category Quantity">
+                    <input type="number" class="form-control" asp-for="book_Quantity" placeholder="Book Quantity">
                     <span asp-validation-for="book_Quantity"></span>
                 </div>
 
                 <div class="form-group">
                     <label>Book Image</label>
-                    <img src="~/images/NoImage.png" style="height:200px;width:250px" id="image"/>
+                   
                     <input type="file" asp-for="book_Img" onchange="chooseFile(this)" accept="image/gif, image/jpeg, image/png" />
+                    <br/>
+                    <img src="~/images/NoImage.png"style="height:200px;width:250px; margin-top:10px" id="image" />
                     <span asp-validation-for="book_Img" class="text-danger"></span>
                 </div>
 

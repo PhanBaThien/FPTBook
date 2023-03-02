@@ -37,7 +37,7 @@ namespace FPTBook_v3.Controllers
         }
 
 
-        [Route("/Book/Detail")]
+        [Route("/Book/Detail/{id:}")]
         public async Task<IActionResult> BookDetail(int id)
         {
             if (id == null || _db.Books == null)
@@ -85,20 +85,20 @@ namespace FPTBook_v3.Controllers
 
         public async Task<IEnumerable<Book>> GetBooks1(string sTerm = "", int genreId = 0)
         {
-            
+
             IEnumerable<Book> books = await (from book in _db.Books
                                              join genre in _db.Categorys
                                              on book.cate_Id equals genre.cate_Id
                                              where string.IsNullOrWhiteSpace(sTerm) || (book != null && book.book_Title.ToLower().StartsWith(sTerm))
-                                             select book).OrderByDescending(b => b.book_Price).Take(4).ToListAsync();
+                                             select book).ToListAsync();
 
             if (genreId != 0 && sTerm != null)
             {
 
                 books = await (from book in _db.Books
-                                   join genre in _db.Categorys
-                                   on book.cate_Id equals genre.cate_Id
-                                   where genre.cate_Id == genreId && book.book_Title == sTerm
+                               join genre in _db.Categorys
+                               on book.cate_Id equals genre.cate_Id
+                               where genre.cate_Id == genreId && book.book_Title == sTerm
                                select book).ToListAsync();
                 /*books = books.Where(a => a.book_Id == genreId).ToList();*/
             }
