@@ -5152,6 +5152,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\93290dda-ee11-4a6b-8e39-1a69b7dcfa81.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\9f28e7d8-9b3f-4d61-8501-02093a97e8c6Living_Loving_and_Learning.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>FPTBook_v3</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FPTBook_v3</BasePath>
+      <RelativePath>Uploads/9f28e7d8-9b3f-4d61-8501-02093a97e8c6Living_Loving_and_Learning.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\9f28e7d8-9b3f-4d61-8501-02093a97e8c6Living_Loving_and_Learning.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\9fe3fcbf-c154-403e-bb06-5e2352458a0f.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>FPTBook_v3</SourceId>

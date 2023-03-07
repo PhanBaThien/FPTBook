@@ -82,8 +82,8 @@
 
 
                         <td>
-                            <a class="btn btn-primary mdi mdi-pencil" asp-action="Edit" asp-route-id="@book.book_Id" asp-route-img="@book.book_Img">Edit</a>
-                            <a class="btn btn-danger mdi mdi-delete" asp-action="Delete" asp-route-id="@book.book_Id" onclick="return confirm ('Are you sure?')">Delete</a>
+                            <a class="btn btn-primary mdi mdi-pencil" asp-action="Edit" asp-route-id="@book.book_Id" asp-route-img="@book.book_ImagURL">Edit</a>
+                            <a class="btn btn-danger mdi mdi-delete" asp-action="Delete" asp-route-id="@book.book_Id" asp-route-img="@book.book_ImagURL" onclick="return confirm ('Are you sure?')">Delete</a>
                             
                         </td>
                     </tr>

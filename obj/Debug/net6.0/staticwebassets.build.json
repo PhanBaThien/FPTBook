@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FU7ghjIOtaoqFt5vsGHoWvJJQclVqNQPSnEVlNKYViI=",
+  "Hash": "eHItT7IaXVvHBdPz2vpoWmcPZUfq5G+Z+JS5ly6b+QI=",
   "Source": "FPTBook_v3",
   "BasePath": "_content/FPTBook_v3",
   "Mode": "Default",
@@ -6526,6 +6526,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\93290dda-ee11-4a6b-8e39-1a69b7dcfa81.jpg"
+    },
+    {
+      "Identity": "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\9f28e7d8-9b3f-4d61-8501-02093a97e8c6Living_Loving_and_Learning.jpg",
+      "SourceId": "FPTBook_v3",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\wwwroot\\",
+      "BasePath": "_content/FPTBook_v3",
+      "RelativePath": "Uploads/9f28e7d8-9b3f-4d61-8501-02093a97e8c6Living_Loving_and_Learning.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\9f28e7d8-9b3f-4d61-8501-02093a97e8c6Living_Loving_and_Learning.jpg"
     },
     {
       "Identity": "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\wwwroot\\Uploads\\9fe3fcbf-c154-403e-bb06-5e2352458a0f.jpg",

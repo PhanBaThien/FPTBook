@@ -47,11 +47,27 @@ namespace FPTBook_v3.Controllers
         {
             if (ModelState.IsValid)
             {
-                string uniqueFileName = UploadFile(book);
-                book.book_ImagURL = uniqueFileName;
-                _db.Books.Add(book);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
+                try
+                {
+                    string uniqueFileName = UploadFile(book);
+                    book.book_ImagURL = uniqueFileName;
+                    if (book.book_Quantity < 0 || book.book_Price < 0)
+                    {
+                        TempData["Fail"] = "Quantity and Price must be greater than 0";
+                        ViewData["Cate_Id"] = new SelectList(_db.Categorys.Where(c => c.cate_Status == "processed").ToList(), "cate_Id", "cate_Name");
+                        return View(book);
+                    }
+                    _db.Books.Add(book);
+                    _db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                catch (Exception)
+                {
+                    ViewData["Cate_Id"] = new SelectList(_db.Categorys.Where(c => c.cate_Status == "processed").ToList(), "cate_Id", "cate_Name");
+                    TempData["Error"] = "";
+                    return View(book);
+                }
+                
             }
             return View(book);
         }
@@ -76,54 +92,61 @@ namespace FPTBook_v3.Controllers
             book.book_Id = id;
             if (ModelState.IsValid)
             {
-                if (book.book_Img == null)
+                try
                 {
-                    book.book_ImagURL = img;
-                    _db.Books.Update(book);
-                    _db.SaveChanges();
-                }
-                else
-                {
-                    string uniqueFileName = UploadFile(book);
-                    book.book_ImagURL = uniqueFileName;
-
-                    _db.Books.Update(book);
-                    _db.SaveChanges();
-
-                    img = Path.Combine("wwwroot", "uploads", img);
-                    FileInfo infor = new FileInfo(img);
-                    if (infor != null)
+                    if (book.book_Img == null)
                     {
-                        System.IO.File.Delete(img);
-                        infor.Delete();
+                        book.book_ImagURL = img;
+                        if (book.book_Quantity < 0 || book.book_Price < 0)
+                        {
+                            TempData["Fail"] = "Quantity and Price must be greater than 0";
+                            ViewData["Cate_Id"] = new SelectList(_db.Categorys.Where(c => c.cate_Status == "processed").ToList(), "cate_Id", "cate_Name");
+                            return View(book);
+                        }
+                        _db.Books.Update(book);
+                        _db.SaveChanges();
                     }
+                    else
+                    {
+                        string uniqueFileName = UploadFile(book);
+                        book.book_ImagURL = uniqueFileName;
+
+                        if (book.book_Quantity < 0 || book.book_Price < 0)
+                        {
+                            TempData["Fail"] = "Quantity and Price must be greater than 0";
+                            ViewData["Cate_Id"] = new SelectList(_db.Categorys.Where(c => c.cate_Status == "processed").ToList(), "cate_Id", "cate_Name");
+                            return View(book);
+                        }
+                        _db.Books.Update(book);
+                        _db.SaveChanges();
+
+                        img = Path.Combine("wwwroot", "uploads", img);
+                        FileInfo infor = new FileInfo(img);
+                        if (infor != null)
+                        {
+                            System.IO.File.Delete(img);
+                            infor.Delete();
+                        }
+                    }
+
+                    return RedirectToAction("Index");
+                }
+                catch (Exception)
+                {
+                    TempData["Error"] = "";
+                    ViewData["Cate_Id"] = new SelectList(_db.Categorys.Where(c => c.cate_Status == "processed").ToList(), "cate_Id", "cate_Name");
+                    return View(book);
                 }
                 
-
-                return RedirectToAction("Index");
             }
 
             return View(book);
         }
 
+        
+
+
         [Route("/Owner/Book/Delete/{id:}")]
-        public IActionResult Delete(int id)
-        {
-            Book book = _db.Books.Find(id);
-            if (book == null)
-            {
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                _db.Books.Remove(book);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-        }
-
-
-
         public ActionResult Delete(int id, string img)
         {
             Book book = _db.Books.Find(id);
@@ -152,6 +175,14 @@ namespace FPTBook_v3.Controllers
 
             if (book.book_Img != null)
             {
+                var ext = Path.GetExtension(book.book_Img.FileName);
+                var allowedExtensions = new string[] { ".jpg", ".png", ".jpeg" };
+                if (!allowedExtensions.Contains(ext))
+                {
+                    string msg = string.Format("Only {0} extensions are allowed", string.Join(",", allowedExtensions));
+                    throw new Exception(msg);
+                }
+                
                 string uploadsFoder = Path.Combine("wwwroot", "uploads");
                 uniqueFileName = Guid.NewGuid().ToString() + book.book_Img.FileName;
                 string filePath = Path.Combine(uploadsFoder, uniqueFileName);

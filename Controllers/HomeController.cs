@@ -61,7 +61,7 @@ namespace FPTBook_v3.Controllers
 
         public async Task<IActionResult> Index(string sterm = "", int genreId = 0)
         {
-            IEnumerable<Book> books = await GetBooks1(sterm, genreId);
+            IEnumerable<Book> books = await IndexGetBook(sterm, genreId);
             IEnumerable<Category> categorys = await _db.Categorys.Where(x => x.cate_Status == "processed").ToListAsync(); ;
             Models.BookDisplayModel bookModel = new Models.BookDisplayModel
             {
@@ -83,7 +83,7 @@ namespace FPTBook_v3.Controllers
         }
 
 
-        public async Task<IEnumerable<Book>> GetBooks1(string sTerm = "", int genreId = 0)
+        public async Task<IEnumerable<Book>> IndexGetBook(string sTerm = "", int genreId = 0)
         {
 
             IEnumerable<Book> books = await (from book in _db.Books

@@ -6,9 +6,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FPTBook_v3.Controllers
 {
-
-
-    
     public class OrderController : Controller
     {
         private readonly ApplicationDbContext _db;

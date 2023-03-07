@@ -11,8 +11,6 @@ namespace FPTBook_v3.Models
         [Required]
         public int BookId { get; set; }
         [Required]
-
-
         public int Quantity { get; set; }
         [Required]
         public double UnitPrice { get; set; }

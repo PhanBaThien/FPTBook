@@ -176,14 +176,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/Views/Admin/EditOwner.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdE93bmVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/Views/Admin/EditUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -238,10 +230,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/Views/Home/ShowBook.cshtml]
