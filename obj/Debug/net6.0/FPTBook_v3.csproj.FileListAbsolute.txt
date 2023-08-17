@@ -1,564 +1,846 @@
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\appsettings.Development.json
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\appsettings.json
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.staticwebassets.runtime.json
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.exe
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.deps.json
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.runtimeconfig.json
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.pdb
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Humanizer.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Drawing.Common.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Runtime.Caching.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Security.Permissions.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Windows.Extensions.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.csproj.AssemblyReference.cache
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.GeneratedMSBuildEditorConfig.editorconfig
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.AssemblyInfoInputs.cache
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.AssemblyInfo.cs
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.csproj.CoreCompileInputs.cache
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.MvcApplicationPartsAssemblyInfo.cs
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.MvcApplicationPartsAssemblyInfo.cache
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.RazorAssemblyInfo.cache
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.RazorAssemblyInfo.cs
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets\msbuild.FPTBook_v3.Microsoft.AspNetCore.StaticWebAssets.props
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets\msbuild.build.FPTBook_v3.props
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FPTBook_v3.props
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FPTBook_v3.props
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets.pack.json
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets.build.json
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets.development.json
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\scopedcss\bundle\FPTBook_v3.styles.css
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\scopedcss\projectbundle\FPTBook_v3.bundle.scp.css
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.csproj.CopyComplete
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.dll
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\refint\FPTBook_v3.dll
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.pdb
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.genruntimeconfig.cache
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\ref\FPTBook_v3.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\MessagePack.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\MessagePack.Annotations.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Build.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Build.Framework.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Newtonsoft.Json.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Common.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Configuration.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Frameworks.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.LibraryModel.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Packaging.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.ProjectModel.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Protocol.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Versioning.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Composition.AttributedModel.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Composition.Convention.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Composition.Hosting.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Composition.Runtime.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Composition.TypedParts.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutOwner.cshtml.rz.scp.css
-D:\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutAdmin.cshtml.rz.scp.css
-D:\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\BCrypt.Net-Next.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\appsettings.Development.json
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\appsettings.json
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.staticwebassets.runtime.json
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.exe
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.deps.json
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.runtimeconfig.json
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\FPTBook_v3.pdb
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\BCrypt.Net-Next.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Humanizer.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\MessagePack.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\MessagePack.Annotations.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Build.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Build.Framework.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\Newtonsoft.Json.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Common.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Configuration.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Frameworks.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.LibraryModel.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Packaging.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.ProjectModel.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Protocol.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\NuGet.Versioning.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Composition.AttributedModel.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Composition.Convention.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Composition.Hosting.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Composition.Runtime.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Composition.TypedParts.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Drawing.Common.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Runtime.Caching.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Security.Permissions.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\System.Windows.Extensions.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.csproj.AssemblyReference.cache
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.GeneratedMSBuildEditorConfig.editorconfig
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.AssemblyInfoInputs.cache
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.AssemblyInfo.cs
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.csproj.CoreCompileInputs.cache
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.MvcApplicationPartsAssemblyInfo.cs
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.MvcApplicationPartsAssemblyInfo.cache
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.RazorAssemblyInfo.cache
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.RazorAssemblyInfo.cs
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets\msbuild.FPTBook_v3.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets\msbuild.build.FPTBook_v3.props
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FPTBook_v3.props
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FPTBook_v3.props
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets.pack.json
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets.build.json
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\staticwebassets.development.json
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutAdmin.cshtml.rz.scp.css
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutOwner.cshtml.rz.scp.css
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\scopedcss\bundle\FPTBook_v3.styles.css
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\scopedcss\projectbundle\FPTBook_v3.bundle.scp.css
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.csproj.CopyComplete
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\refint\FPTBook_v3.dll
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.pdb
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\FPTBook_v3.genruntimeconfig.cache
-E:\Greenwich\1670\FPTBook_v3\FPTBook_v3\obj\Debug\net6.0\ref\FPTBook_v3.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/appsettings.Development.json
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/appsettings.json
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.staticwebassets.runtime.json
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.exe
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.deps.json
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.runtimeconfig.json
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.pdb
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Humanizer.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Drawing.Common.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Runtime.Caching.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Security.Permissions.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Windows.Extensions.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.csproj.AssemblyReference.cache
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.GeneratedMSBuildEditorConfig.editorconfig
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.AssemblyInfoInputs.cache
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.AssemblyInfo.cs
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.csproj.CoreCompileInputs.cache
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.MvcApplicationPartsAssemblyInfo.cs
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.MvcApplicationPartsAssemblyInfo.cache
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.RazorAssemblyInfo.cache
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.RazorAssemblyInfo.cs
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets/msbuild.FPTBook_v3.Microsoft.AspNetCore.StaticWebAssets.props
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets/msbuild.build.FPTBook_v3.props
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.FPTBook_v3.props
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.FPTBook_v3.props
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets.pack.json
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets.build.json
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets.development.json
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/scopedcss/bundle/FPTBook_v3.styles.css
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/scopedcss/projectbundle/FPTBook_v3.bundle.scp.css
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.csproj.CopyComplete
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.dll
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/refint/FPTBook_v3.dll
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.pdb
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.genruntimeconfig.cache
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/ref/FPTBook_v3.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/MessagePack.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/MessagePack.Annotations.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Build.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Build.Framework.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.Features.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.DiaSymReader.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.NET.StringTools.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Debugger.Contracts.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/dotnet-aspnet-codegenerator-design.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Newtonsoft.Json.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Common.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Configuration.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.DependencyResolver.Core.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Frameworks.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.LibraryModel.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Packaging.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.ProjectModel.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Protocol.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Versioning.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Composition.AttributedModel.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Composition.Convention.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Composition.Hosting.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Composition.Runtime.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Composition.TypedParts.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Reflection.MetadataLoadContext.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/scopedcss/Views/Shared/_LayoutOwner.cshtml.rz.scp.css
+D:/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/scopedcss/Views/Shared/_LayoutAdmin.cshtml.rz.scp.css
+D:/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/BCrypt.Net-Next.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/appsettings.Development.json
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/appsettings.json
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.staticwebassets.runtime.json
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.exe
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.deps.json
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.runtimeconfig.json
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/FPTBook_v3.pdb
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/BCrypt.Net-Next.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Humanizer.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/MessagePack.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/MessagePack.Annotations.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Build.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Build.Framework.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.Features.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Features.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.DiaSymReader.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.NET.StringTools.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Debugger.Contracts.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/dotnet-aspnet-codegenerator-design.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/Newtonsoft.Json.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Common.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Configuration.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.DependencyResolver.Core.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Frameworks.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.LibraryModel.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Packaging.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.ProjectModel.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Protocol.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/NuGet.Versioning.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Composition.AttributedModel.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Composition.Convention.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Composition.Hosting.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Composition.Runtime.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Composition.TypedParts.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Drawing.Common.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Reflection.MetadataLoadContext.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Runtime.Caching.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Security.Permissions.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/System.Windows.Extensions.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.csproj.AssemblyReference.cache
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.GeneratedMSBuildEditorConfig.editorconfig
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.AssemblyInfoInputs.cache
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.AssemblyInfo.cs
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.csproj.CoreCompileInputs.cache
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.MvcApplicationPartsAssemblyInfo.cs
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.MvcApplicationPartsAssemblyInfo.cache
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.RazorAssemblyInfo.cache
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.RazorAssemblyInfo.cs
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets/msbuild.FPTBook_v3.Microsoft.AspNetCore.StaticWebAssets.props
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets/msbuild.build.FPTBook_v3.props
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.FPTBook_v3.props
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.FPTBook_v3.props
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets.pack.json
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets.build.json
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/staticwebassets.development.json
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/scopedcss/Views/Shared/_LayoutAdmin.cshtml.rz.scp.css
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/scopedcss/Views/Shared/_LayoutOwner.cshtml.rz.scp.css
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/scopedcss/bundle/FPTBook_v3.styles.css
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/scopedcss/projectbundle/FPTBook_v3.bundle.scp.css
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.csproj.CopyComplete
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/refint/FPTBook_v3.dll
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.pdb
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/FPTBook_v3.genruntimeconfig.cache
+E:/Greenwich/1670/FPTBook_v3/FPTBook_v3/obj/Debug/net6.0/ref/FPTBook_v3.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/appsettings.Development.json
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/appsettings.json
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/FPTBook_v3.staticwebassets.runtime.json
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/FPTBook_v3
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/FPTBook_v3.deps.json
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/FPTBook_v3.runtimeconfig.json
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/FPTBook_v3.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/FPTBook_v3.pdb
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/BCrypt.Net-Next.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Humanizer.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/MessagePack.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/MessagePack.Annotations.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Build.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Build.Framework.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.Features.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Features.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.DiaSymReader.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.NET.StringTools.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.VisualStudio.Debugger.Contracts.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/dotnet-aspnet-codegenerator-design.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/NuGet.Common.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/NuGet.Configuration.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/NuGet.DependencyResolver.Core.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/NuGet.Frameworks.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/NuGet.LibraryModel.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/NuGet.Packaging.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/NuGet.ProjectModel.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/NuGet.Protocol.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/NuGet.Versioning.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Composition.AttributedModel.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Composition.Convention.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Composition.Hosting.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Composition.Runtime.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Composition.TypedParts.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Drawing.Common.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Reflection.MetadataLoadContext.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Security.Permissions.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/File University/Flim/FPTBook/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.csproj.AssemblyReference.cache
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.AssemblyInfoInputs.cache
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.AssemblyInfo.cs
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.csproj.CoreCompileInputs.cache
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.MvcApplicationPartsAssemblyInfo.cs
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.MvcApplicationPartsAssemblyInfo.cache
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.RazorAssemblyInfo.cache
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.RazorAssemblyInfo.cs
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/staticwebassets/msbuild.FPTBook_v3.Microsoft.AspNetCore.StaticWebAssets.props
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/staticwebassets/msbuild.build.FPTBook_v3.props
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.FPTBook_v3.props
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.FPTBook_v3.props
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/staticwebassets.pack.json
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/staticwebassets.build.json
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/staticwebassets.development.json
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/scopedcss/Views/Shared/_LayoutAdmin.cshtml.rz.scp.css
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/scopedcss/Views/Shared/_LayoutOwner.cshtml.rz.scp.css
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/scopedcss/bundle/FPTBook_v3.styles.css
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/scopedcss/projectbundle/FPTBook_v3.bundle.scp.css
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.csproj.CopyComplete
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.dll
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/refint/FPTBook_v3.dll
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.pdb
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/FPTBook_v3.genruntimeconfig.cache
+/Volumes/File University/Flim/FPTBook/obj/Debug/net6.0/ref/FPTBook_v3.dll

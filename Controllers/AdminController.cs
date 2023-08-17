@@ -57,7 +57,7 @@ namespace FPTBook_v3.Controllers
         [Route("Admin/RequestCategory")]
         public IActionResult RequestCategory()
         {
-            var category = _db.Categorys.Where(c => c.cate_Status == "processing").ToList();
+            var category = _db.Categorys.Where(c => c.cate_Status == "processed").ToList();
             return View(category);
         }
 

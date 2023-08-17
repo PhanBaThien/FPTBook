@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj": {}
+    "/Volumes/File University/Flim/FPTBook/FPTBook_v3.csproj": {}
   },
   "projects": {
-    "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj": {
+    "/Volumes/File University/Flim/FPTBook/FPTBook_v3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj",
+        "projectUniqueName": "/Volumes/File University/Flim/FPTBook/FPTBook_v3.csproj",
         "projectName": "FPTBook_v3",
-        "projectPath": "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\FPTBook_v3.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Greenwich\\1670\\FPTBook_v3\\FPTBook_v3\\obj\\",
+        "projectPath": "/Volumes/File University/Flim/FPTBook/FPTBook_v3.csproj",
+        "packagesPath": "/Users/phanbathien/.nuget/packages/",
+        "outputPath": "/Volumes/File University/Flim/FPTBook/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/phanbathien/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     }

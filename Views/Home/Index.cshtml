@@ -4,12 +4,12 @@
 <div class="my-2" style="margin-left: 750px">
     <form asp-action="Index" class="row col-12 align-items-center">
         <div class="col-4">
-            <label class="visually-hidden" for="genreId">Catgory</label>
-            <select class="form-select" id="genreId" name="genreId">
-                <option selected>Catgory choose</option>
+            <label class="visually-hidden" for="genreId">Category</label>
+            <select class="form-select" id="genreId" name="genreId" onchange="scrollToSelectedCategory()">
+                <option selected>Category choose</option>
                 @foreach (var genre in Model.Categorys)
                 {
-                    <option selected="@(genre.cate_Id == Model.GenreId)" value="@genre.cate_Id">@genre.cate_Name</option>
+                    <option value="@genre.cate_Id">@genre.cate_Name</option>
                 }
             </select>
         </div>
@@ -34,7 +34,7 @@
         <h3>Book too expensive</h3>
         @foreach (var book in Model.Books)
         {
-            if (book.book_Price >= 115)
+            if (book.book_Price >= 10)
             {
                 <div class="col-lg-3 ">
                     <div class="card mx-4 mb-2 " style="width: 16rem;">
@@ -77,10 +77,10 @@
             <br />
         </div>
 
-        <h3>Category Romance</h3>
+        <h3>Category Eco</h3>
         @foreach (var book in Model.Books)
         {
-            if (book.category.cate_Name == "Romance")
+            if (book.category.cate_Name == "Economy")
             {
                 <div class="col-lg-3 ">
                     <div class="card mx-4 mb-2 " style="width: 16rem;">
@@ -123,10 +123,55 @@
             <br />
         </div>
 
-        <h3>Category Mystery</h3>
+        <h3>Book Information Technology</h3>
         @foreach (var book in Model.Books)
         {
-            if (book.category.cate_Name == "Mystery")
+            if (book.category.cate_Name == "Information Technology")
+            {
+                <div class="col-lg-3 ">
+                    <div class="card mx-4 mb-2 " style="width: 16rem;">
+                        <a asp-controller="Home" asp-action="BookDetail" asp-route-cate="@book.category.cate_Name" asp-route-id="@book.book_Id">
+                            @if (string.IsNullOrEmpty(book.book_ImagURL))
+                            {
+                                <img style="width:100%;height:180px" src="~/images/NoImage.png" class="card-img-top" alt="...">
+
+                            }
+                            else
+                            {
+                                <img style="width:100%;height:180px" src="~/uploads/@book.book_ImagURL" class="card-img-top" alt="...">
+                            }
+                        </a>
+                        <div class="card-body" style="height: 270px;width: 275px;">
+                            <h5 class="card-title">@book.book_Title</h5>
+                            <p class="card-text">
+                                <b>Category: </b>@book.category.cate_Name <br />
+                                <b>Price: </b>@book.book_Price<br />
+                                <b>Quantity: </b>@book.book_Quantity
+                            </p>
+                            @if (book.book_Quantity == 0)
+                            {
+                                <button type="button" class="btn btn-secondary">Out Of Stock</button>
+                            }
+                            else
+                            {
+                                <button type="button" onclick="add(@book.book_Id)" class="btn btn-primary">Add to cart</button>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            }
+
+        }
+
+        <div>
+            <br />
+            <br />
+        </div>
+        <h3>Book PHOTOGRAPHY - LIFE SKILLS</h3>
+        @foreach (var book in Model.Books)
+        {
+            if (book.category.cate_Name == "PHOTOGRAPHY - LIFE SKILLS")
             {
                 <div class="col-lg-3 ">
                     <div class="card mx-4 mb-2 " style="width: 16rem;">
@@ -168,8 +213,7 @@
 
 
 @section Scripts{
-    <script>
-        async function add(bookId) {
+    <script>async function add(bookId) {
             var usernameEl = document.getElementById("username");
             if (usernameEl == null) {
                 window.location.href = "/Identity/Account/Login";
@@ -191,7 +235,11 @@
                 console.log(err);
             }
         }
-    </script>
+        function scrollToSelectedCategory() {
+            var selectedGenreId = document.getElementById("genreId").value;
+            var selectedCategoryElement = document.getElementById(`Category${selectedGenreId}`);
+            if (selectedCategoryElement) {
+                selectedCategoryElement.scrollIntoView({ behavior: "smooth" });
+            }
+        }</script>
 }
-
-

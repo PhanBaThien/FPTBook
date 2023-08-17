@@ -40,7 +40,7 @@ namespace FPTBook_v3.Models
             
             if (ModelState.IsValid)
             {
-                category.cate_Status = "Processing";
+                category.cate_Status = "Processed";
                 _db.Categorys.Add(category);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
