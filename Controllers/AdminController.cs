@@ -40,6 +40,62 @@ namespace FPTBook_v3.Controllers
             return View(user);
         }
 
+        [HttpGet]
+        [Route("Admin/EditUser/{id}")]
+        public async Task<IActionResult> EditUser(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+
+            if (user == null)
+            {
+                return RedirectToAction("ShowUser");
+            }
+
+            return View(user);
+        }
+
+        [HttpPost]
+        [Route("Admin/EditUser/{id}")]
+        public async Task<IActionResult> EditUser(string id, ApplicationUser editedUser)
+        {
+            var existingUser = await _userManager.FindByIdAsync(id);
+
+            if (existingUser == null)
+            {
+                return RedirectToAction("ShowUser");
+            }
+
+            existingUser.User_Name = editedUser.User_Name;
+            existingUser.Email = editedUser.Email;
+            existingUser.PhoneNumber = editedUser.PhoneNumber;
+
+            if (editedUser.User_Img != null)
+            {
+                var result = _fileService.SaveImage(editedUser.User_Img);
+                if (result.Item1 == 1)
+                {
+                    var oldImage = existingUser.User_Img;
+                    existingUser.User_Img = result.Item2;
+
+                    if (oldImage != null)
+                    {
+                        var deleteResult = _fileService.Delete(oldImage);
+                        
+                    }
+                }
+            }
+
+            var updateResult = await _userManager.UpdateAsync(existingUser);
+            if (!updateResult.Succeeded)
+            {
+                TempData["Fail"] = "EditUser Fail!";
+                return RedirectToAction("EditUser", new { id = id });
+            }
+
+            return RedirectToAction("ShowUser");
+        }
+
+
         [Route("Admin/ShowOwner")]
         public async Task<IActionResult> ShowOwner()
         {
@@ -152,6 +208,66 @@ namespace FPTBook_v3.Controllers
                 }
             }
             return RedirectToAction("RegisterOwner");
+
         }
+
+        [HttpGet]
+        [Route("Admin/EditOwner/{id}")]
+        public async Task<IActionResult> EditOwner(string id)
+        {
+            var owner = await _userManager.FindByIdAsync(id);
+
+            if (owner == null)
+            {
+                return RedirectToAction("ShowOwner");
+            }
+
+            return View(owner);
+        }
+
+        [HttpPost]
+        [Route("Admin/EditOwner/{id}")]
+        public async Task<IActionResult> EditOwner(string id, ApplicationUser editedOwner)
+        {
+            var existingOwner = await _userManager.FindByIdAsync(id);
+
+            if (existingOwner == null)
+            {
+                return RedirectToAction("ShowOwner");
+            }
+
+            existingOwner.User_Name = editedOwner.User_Name;
+            existingOwner.Email = editedOwner.Email;
+            existingOwner.PhoneNumber = editedOwner.PhoneNumber;
+
+            if (editedOwner.User_Img != null)
+            {
+                var result = _fileService.SaveImage(editedOwner.User_Img);
+                if (result.Item1 == 1)
+                {
+                    var oldImage = existingOwner.User_Img;
+                    existingOwner.User_Img = result.Item2;
+
+                    if (oldImage != null)
+                    {
+                        var deleteResult = _fileService.Delete(oldImage);
+                        
+                    }
+                }
+            }
+
+            // Khi cập nhật thông tin chủ sở hữu, hãy sử dụng `UpdateAsync` từ `_userManager`
+            var updateResult = await _userManager.UpdateAsync(existingOwner);
+            if (!updateResult.Succeeded)
+            {
+                // Xử lý lỗi khi cập nhật không thành công
+                TempData["Fail"] = "EditOwner Fail!";
+                return RedirectToAction("EditOwner", new { id = id });
+            }
+
+            return RedirectToAction("ShowOwner");
+        }
+       
+
     }
 }

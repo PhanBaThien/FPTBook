@@ -61,6 +61,9 @@
             }
         }
 
-
+        public Tuple<int, string> SaveImage(string user_Img)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
